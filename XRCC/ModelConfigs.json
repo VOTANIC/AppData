@@ -1,0 +1,125 @@
+{
+  "modelConfigs": [
+    {
+      "modelType": 0,
+      "aiGenerationTasks": 30,
+      "name": "GPT-Image-1.5",
+      "parameters": [
+        {
+          "identifier": "aspectRatio",
+          "name": "aspect",
+          "inputTypes": "string",
+          "options": [
+            "3:2",
+            "1:1",
+            "2:3"
+          ]
+        }
+      ],
+      "inputConstraints": {
+        "allowedImageCountRange": {
+          "start": 0,
+          "length": 1,
+          "end": 1
+        },
+        "allowedAudioCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedCharacterCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "supportsTextInput": true,
+        "requiresTextInput": false
+      }
+    },
+    {
+      "modelType": 1,
+      "aiGenerationTasks": 224,
+      "name": "Hailuo-Speech-02",
+      "parameters": [
+        {
+          "identifier": "Language",
+          "name": "Language",
+          "inputTypes": "string",
+          "options": [
+            "English",
+            "Cantonese",
+            "Mandarin"
+          ]
+        },
+        {
+          "identifier": "Voice",
+          "name": "Voice",
+          "inputTypes": "string",
+          "options": [
+            "Wise_Woman",
+            "Friendly_Person",
+            "Inspirational_girl",
+            "Deep_Voice_Man",
+            "Calm_Woman",
+            "Casual_Guy",
+            "Lively_Girl",
+            "Patient_Man",
+            "Young_Knight",
+            "Determined_Man",
+            "Lovely_Girl",
+            "Decent_Boy",
+            "Imposing_Manner",
+            "Elegant_Man",
+            "Abbess",
+            "Sweet_Girl_2",
+            "Exuberant_Girl"
+          ]
+        }
+      ],
+      "inputConstraints": {
+        "allowedImageCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedAudioCountRange": {
+          "start": 0,
+          "length": 1,
+          "end": 1
+        },
+        "allowedCharacterCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "supportsTextInput": true,
+        "requiresTextInput": false
+      }
+    },
+    {
+      "modelType": 2,
+      "aiGenerationTasks": 256,
+      "name": "GPT-5.4-nano",
+      "parameters": [],
+      "inputConstraints": {
+        "allowedImageCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedAudioCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedCharacterCountRange": {
+          "start": 1,
+          "length": 0,
+          "end": 1
+        },
+        "supportsTextInput": true,
+        "requiresTextInput": true
+      }
+    }
+  ]
+}
