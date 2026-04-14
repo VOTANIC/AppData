@@ -6,14 +6,23 @@
       "name": "GPT-Image-1.5",
       "parameters": [
         {
-          "identifier": "aspectRatio",
+          "identifier": "Aspect Ratio",
           "name": "aspect",
-          "inputTypes": "string",
           "options": [
             "3:2",
             "1:1",
             "2:3"
           ]
+        }
+      ],
+      "hiddenParameters": [
+        {
+          "name": "quality",
+          "option": "low"
+        },
+        {
+          "name": "use_high_fidelity",
+          "option": "False"
         }
       ],
       "inputConstraints": {
@@ -44,7 +53,6 @@
         {
           "identifier": "Language",
           "name": "Language",
-          "inputTypes": "string",
           "options": [
             "English",
             "Cantonese",
@@ -54,7 +62,6 @@
         {
           "identifier": "Voice",
           "name": "Voice",
-          "inputTypes": "string",
           "options": [
             "Wise_Woman",
             "Friendly_Person",
@@ -94,7 +101,8 @@
         },
         "supportsTextInput": true,
         "requiresTextInput": false
-      }
+      },
+      "hiddenParameters": null
     },
     {
       "modelType": 2,
@@ -119,7 +127,8 @@
         },
         "supportsTextInput": true,
         "requiresTextInput": true
-      }
+      },
+      "hiddenParameters": null
     }
   ]
 }
