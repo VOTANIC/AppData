@@ -4,10 +4,12 @@
       "modelType": 0,
       "aiGenerationTasks": 30,
       "name": "GPT-Image-1.5",
-      "parameters": [
+      "visibleParameters": [
         {
           "identifier": "Aspect Ratio",
           "name": "aspect",
+          "inputMethod": 0,
+          "characterValidation": 0,
           "options": [
             "3:2",
             "1:1",
@@ -49,10 +51,12 @@
       "modelType": 1,
       "aiGenerationTasks": 224,
       "name": "Hailuo-Speech-02",
-      "parameters": [
+      "visibleParameters": [
         {
           "identifier": "Language",
           "name": "Language",
+          "inputMethod": 0,
+          "characterValidation": 0,
           "options": [
             "English",
             "Cantonese",
@@ -62,6 +66,8 @@
         {
           "identifier": "Voice",
           "name": "Voice",
+          "inputMethod": 0,
+          "characterValidation": 0,
           "options": [
             "Wise_Woman",
             "Friendly_Person",
@@ -108,7 +114,7 @@
       "modelType": 2,
       "aiGenerationTasks": 256,
       "name": "GPT-5.4-nano",
-      "parameters": [],
+      "visibleParameters": [],
       "inputConstraints": {
         "allowedImageCountRange": {
           "start": 0,
