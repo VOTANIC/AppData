@@ -1,0 +1,64 @@
+{
+    "aiTasksAndAvailableModels": [
+        {
+            "aiTask": "CombineImages",
+            "availableModels": [
+                "GPT-Image-1.5"
+            ]
+        },
+        {
+            "aiTask": "Generate2DImage",
+            "availableModels": [
+                "GPT-Image-1.5"
+            ]
+        },
+        {
+            "aiTask": "GenerateAICharacterData",
+            "availableModels": [
+                "Gemini-3.1-Flash-Lite",
+                "GPT-5.4-nano",
+                "Grok-4.1-Fast-Non-Reasoning ",
+                "Claude-Haiku-4.5"
+            ]
+        },
+        {
+            "aiTask": "GenerateMusic",
+            "availableModels": [
+                "Hailuo-Speech-02"
+            ]
+        },
+        {
+            "aiTask": "GenerateSoundEffect",
+            "availableModels": [
+                "Hailuo-Speech-02"
+            ]
+        },
+        {
+            "aiTask": "GenerateSpeech",
+            "availableModels": [
+                "Hailuo-Speech-02"
+            ]
+        },
+        {
+            "aiTask": "MakeVariations",
+            "availableModels": [
+                "GPT-Image-1.5"
+            ]
+        },
+        {
+            "aiTask": "RemoveBackground",
+            "availableModels": [
+                "GPT-Image-1.5"
+            ]
+        },
+        {
+            "aiTask": "TextToText",
+            "availableModels": [
+                "Gemini-3.1-Flash-Lite",
+                "GPT-5.4-nano",
+                "Grok-4.1-Fast-Non-Reasoning ",
+                "Claude-Haiku-4.5"
+            ]
+        }
+    ]
+}
