@@ -102,7 +102,7 @@
         {
           "identifier": "sound effects",
           "name": "sound_effects",
-          "inputMethod": 1,
+          "inputMethod": 0,
           "characterValidation": 0,
           "options": [
             "spacious_echo",
