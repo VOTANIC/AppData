@@ -97,6 +97,44 @@
     },
 	{
       "modelType": 2,
+      "name": "minimax-speech-2.8",
+      "visibleParameters": [
+        {
+          "identifier": "sound effects",
+          "name": "sound_effects",
+          "inputMethod": 1,
+          "characterValidation": 0,
+          "options": [
+            "spacious_echo",
+			"auditorium_echo",
+			"lofi_telephone",
+			"robotic"
+          ]
+        },
+      ],
+      "hiddenParameters": [],
+      "inputConstraints": {
+        "allowedImageCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedAudioCountRange": {
+          "start": 1,
+          "length": 0,
+          "end": 1
+        },
+        "allowedCharacterCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "supportsTextInput": false,
+        "requiresTextInput": false
+      }
+    },
+	{
+      "modelType": 2,
       "name": "Hailuo-Music-v1.5",
       "visibleParameters": [
         {

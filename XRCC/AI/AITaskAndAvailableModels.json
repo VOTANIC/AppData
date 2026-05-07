@@ -5,7 +5,6 @@
             "availableModels": [
                 "GPT-Image-1.5",
 				"Nano-Banana",
-				"Qwen Image"
             ]
         },
         {
@@ -13,7 +12,6 @@
             "availableModels": [
                 "GPT-Image-1.5",
 				"Nano-Banana",
-				"Qwen Image"
             ]
         },
         {
@@ -34,7 +32,7 @@
         {
             "aiTask": "GenerateSoundEffect",
             "availableModels": [
-                ""
+                "minimax-speech-2.8"
             ]
         },
         {
