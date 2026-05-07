@@ -3,13 +3,17 @@
         {
             "aiTask": "CombineImages",
             "availableModels": [
-                "GPT-Image-1.5"
+                "GPT-Image-1.5",
+				"Nano-Banana",
+				"Qwen Image"
             ]
         },
         {
             "aiTask": "Generate2DImage",
             "availableModels": [
-                "GPT-Image-1.5"
+                "GPT-Image-1.5",
+				"Nano-Banana",
+				"Qwen Image"
             ]
         },
         {
@@ -24,13 +28,13 @@
         {
             "aiTask": "GenerateMusic",
             "availableModels": [
-                "Hailuo-Speech-02"
+                "Hailuo-Music-v1.5"
             ]
         },
         {
             "aiTask": "GenerateSoundEffect",
             "availableModels": [
-                "Hailuo-Speech-02"
+                ""
             ]
         },
         {
@@ -42,13 +46,17 @@
         {
             "aiTask": "MakeVariations",
             "availableModels": [
-                "GPT-Image-1.5"
+                "GPT-Image-1.5",
+				"Nano-Banana",
+				"Qwen Image"
             ]
         },
         {
             "aiTask": "RemoveBackground",
             "availableModels": [
-                "GPT-Image-1.5"
+                "GPT-Image-1.5",
+				"Nano-Banana",
+				"Qwen Image"
             ]
         },
         {
