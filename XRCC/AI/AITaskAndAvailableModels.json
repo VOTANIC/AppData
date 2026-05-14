@@ -3,13 +3,15 @@
         {
             "aiTask": "CombineImages",
             "availableModels": [
-                "GPT-Image-1.5"
+                "GPT-Image-1.5",
+				"Nano-Banana",
             ]
         },
         {
             "aiTask": "Generate2DImage",
             "availableModels": [
-                "GPT-Image-1.5"
+                "GPT-Image-1.5",
+				"Nano-Banana",
             ]
         },
         {
@@ -24,13 +26,13 @@
         {
             "aiTask": "GenerateMusic",
             "availableModels": [
-                "Hailuo-Speech-02"
+                "Hailuo-Music-v1.5"
             ]
         },
         {
             "aiTask": "GenerateSoundEffect",
             "availableModels": [
-                "Hailuo-Speech-02"
+                "minimax-speech-2.8"
             ]
         },
         {
@@ -42,13 +44,17 @@
         {
             "aiTask": "MakeVariations",
             "availableModels": [
-                "GPT-Image-1.5"
+                "GPT-Image-1.5",
+				"Nano-Banana",
+				"Qwen Image"
             ]
         },
         {
             "aiTask": "RemoveBackground",
             "availableModels": [
-                "GPT-Image-1.5"
+                "GPT-Image-1.5",
+				"Nano-Banana",
+				"Qwen Image"
             ]
         },
         {
@@ -56,7 +62,7 @@
             "availableModels": [
                 "Gemini-3.1-Flash-Lite",
                 "GPT-5.4-nano",
-                "Grok-4.1-Fast-Non-Reasoning ",
+                "Grok-4.1-Fast-Non-Reasoning",
                 "Claude-Haiku-4.5"
             ]
         }

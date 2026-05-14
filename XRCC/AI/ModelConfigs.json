@@ -29,8 +29,8 @@
       "inputConstraints": {
         "allowedImageCountRange": {
           "start": 0,
-          "length": 1,
-          "end": 1
+          "length": 5,
+          "end": 5
         },
         "allowedAudioCountRange": {
           "start": 0,
@@ -44,6 +44,127 @@
         },
         "supportsTextInput": true,
         "requiresTextInput": false
+      }
+    },
+	{
+      "modelType": 1,
+      "name": "Nano-Banana",
+      "visibleParameters": [
+        {
+          "identifier": "Aspect Ratio",
+          "name": "aspect_ratio",
+          "inputMethod": 0,
+          "characterValidation": 0,
+          "options": [
+            "21:9",
+            "16:9",
+            "3:2",
+            "4:3",
+            "5:4",
+            "1:1",
+            "4:5",
+            "3:4",
+            "2:3",
+            "9:16"
+          ]
+        }
+      ],
+      "hiddenParameters": [
+        {
+          "name": "image_only",
+          "option": "true"
+        },
+      ],
+      "inputConstraints": {
+        "allowedImageCountRange": {
+          "start": 0,
+          "length": 5,
+          "end": 5
+        },
+        "allowedAudioCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedCharacterCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "supportsTextInput": true,
+        "requiresTextInput": false
+      }
+    },
+	{
+      "modelType": 2,
+      "name": "minimax-speech-2.8",
+      "visibleParameters": [
+        {
+          "identifier": "sound effects",
+          "name": "sound_effects",
+          "inputMethod": 0,
+          "characterValidation": 0,
+          "options": [
+            "spacious_echo",
+			"auditorium_echo",
+			"lofi_telephone",
+			"robotic"
+          ]
+        },
+      ],
+      "hiddenParameters": [],
+      "inputConstraints": {
+        "allowedImageCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedAudioCountRange": {
+          "start": 1,
+          "length": 0,
+          "end": 1
+        },
+        "allowedCharacterCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "supportsTextInput": false,
+        "requiresTextInput": false
+      }
+    },
+	{
+      "modelType": 2,
+      "name": "Hailuo-Music-v1.5",
+      "visibleParameters": [
+        {
+          "identifier": "Style",
+          "name": "style",
+          "inputMethod": 1,
+          "characterValidation": 0,
+          "options": [
+          ]
+        },
+      ],
+      "hiddenParameters": [],
+      "inputConstraints": {
+        "allowedImageCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedAudioCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedCharacterCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "supportsTextInput": true,
+        "requiresTextInput": true
       }
     },
     {
