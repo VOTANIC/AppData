@@ -1,0 +1,743 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>XRCC End User License Agreement</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+
+	table.collection-content {
+		width: 100%;
+		table-layout: fixed;
+	}
+
+	table.collection-content th,
+	table.collection-content td {
+		overflow-wrap: anywhere;
+	}
+
+	table.collection-content td > .user,
+	table.collection-content td > time {
+		white-space: pre-wrap;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content-wrapper {
+	overflow-x: auto;
+}
+
+@media only print {
+	.collection-content-wrapper {
+		overflow-x: visible;
+	}
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	gap: 46px;
+}
+
+.column {
+	min-width: 0;
+	overflow: hidden;
+}
+
+.column > *:first-child {
+	margin-top: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+table {
+	border-collapse: collapse;
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol.numbered-list.numbered-list-digits-2 {
+	padding-inline-start: 2em;
+}
+
+ol.numbered-list.numbered-list-digits-3plus {
+	padding-inline-start: 2.4em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2f6a5a3d-e750-436f-afa6-b7ce64a8f08f" class="page sans"><header><h1 class="page-title" dir="auto">XRCC End User License Agreement</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><p id="7bb71910-6e66-48bb-90c1-729368204481" class=""><strong>Effective Date:</strong> 2026-05-29</p></div><div style="display:contents" dir="auto"><p id="1f7c2427-6a2f-4ed2-8ea0-7e52d603f57f" class=""><strong>Version:</strong> 2.0</p></div><div style="display:contents" dir="auto"><p id="4748d55d-c055-4d44-aa5f-c4fafcd525f0" class=""><strong>Supersedes:</strong> All prior versions of the XRCC End User License Agreement (see Section 21 for transition rules).</p></div><div style="display:contents" dir="auto"><p id="5aac11fb-3e4c-441b-b3cc-116c2d1e7d6f" class="">VOTANIC Limited (&quot;<strong>VOTANIC</strong>&quot;, &quot;<strong>we</strong>&quot;, &quot;<strong>us</strong>&quot;, or &quot;<strong>our</strong>&quot;), the licensor, makes the Extended Reality Content Creator (collectively, &quot;<strong>XRCC</strong>&quot;) available to you on the terms of this End User License Agreement (this &quot;<strong>Agreement</strong>&quot;). By clicking &quot;I accept the terms…&quot;, by installing, copying, downloading, or otherwise using XRCC, you agree to be bound by this Agreement. If you do not agree, do not install or use XRCC.</p></div><div style="display:contents" dir="auto"><p id="7b6429cd-ccb5-4f98-8bc2-8de8601a1a46" class="">If you are accepting this Agreement on behalf of an organization, you represent that you have authority to bind that organization, and references to &quot;you&quot; include that organization.</p></div><div style="display:contents" dir="auto"><hr id="9f6d74b4-83e4-4201-b4ed-4b4f441ebb68"/></div><div style="display:contents" dir="auto"><h2 id="e517eb5d-3a9a-4399-86a6-350606c57866" class="">1. Definitions</h2></div><div style="display:contents" dir="ltr"><figure class="callout" style="white-space:pre-wrap;display:flex" id="c93b39e6-b115-4d7b-95e0-bf931a17d200"><div style="width:100%"><div style="display:contents" dir="auto"><p id="9e07f5d1-d371-46d0-91d7-04449f12000f" class="">This section defines the key terms used throughout this Agreement.</p></div></div></figure></div><div style="display:contents" dir="auto"><p id="e2544ad8-f942-4e67-9a05-b3de7a7edba9" class="">1.1 In this Agreement, the following terms have the meanings given below:</p></div><div style="display:contents" dir="auto"><p id="285e46e1-e8e6-4ac4-aa1c-8ab6a2a2f904" class="">(a) &quot;<strong>Agreement</strong>&quot; means this End User License Agreement, together with any addendum or supplemental terms incorporated by reference.</p></div><div style="display:contents" dir="auto"><p id="a78cde9a-2c89-4607-a927-0275515e9a34" class="">(b) &quot;<strong>AI Features</strong>&quot; means any functionality within XRCC that uses artificial intelligence, machine learning, large language models, or other generative or predictive models, including functionality that relies on third-party AI services that you connect to XRCC.</p></div><div style="display:contents" dir="auto"><p id="91927d67-1f9d-4949-b4b0-8fd9dda9bd4e" class="">(c) &quot;<strong>Annual Subscription</strong>&quot; means the Licensed Tier described in Section 3.2(b).</p></div><div style="display:contents" dir="auto"><p id="fcfe3224-6c1d-4b31-8cc0-0520a334bfd3" class="">(d) &quot;<strong>Authorized Partner</strong>&quot; means a third party that has entered into a written partnership, reseller, distribution, or workshop-provider agreement with VOTANIC under which that third party is expressly authorized to deliver training, instruction, demonstrations, workshops, or distribution services involving XRCC. A party is an Authorized Partner only for the scope and duration stated in its written agreement with VOTANIC. You may verify a party&#x27;s Authorized Partner status by contacting VOTANIC.</p></div><div style="display:contents" dir="auto"><p id="e90c0a64-8898-447e-b7d7-8fe8d5e036e1" class="">(e) &quot;<strong>Commercial Use</strong>&quot; means any use of XRCC or UGC that delivers XRCC-based experiences, content, training, or services to persons outside your organization (or its corporate group) for consideration, revenue, or commercial advantage, including without limitation: (i) sale, licensing, sublicensing, or distribution of UGC for consideration to third parties; (ii) provision of paid training, instruction, coaching, demonstrations, or experiences using XRCC or UGC to third parties; (iii) ticketed, sponsored, or commissioned events featuring XRCC or UGC; and (iv) integration of XRCC or UGC into commercial products, services, or marketing campaigns offered to third parties. Notwithstanding the foregoing, the following are not Commercial Use: (A) use by any organization (whether commercial or non-commercial, including for-profit enterprises, educational institutions, government bodies, and public sector organizations) solely for internal instructional, training, operational, research, evaluation, or professional-development purposes within that organization or its corporate group, where the use is not provided as a paid service to, or for the commercial benefit of, third parties outside the organization or its corporate group; and (B) the delivery of training, workshops, instruction, demonstrations, or distribution by an Authorized Partner, strictly within the scope of that party&#x27;s written agreement with VOTANIC.</p></div><div style="display:contents" dir="auto"><p id="6ba35aa8-34f4-4bb4-8d42-c4c1f66be4c6" class="">(f) &quot;<strong>Content</strong>&quot; collectively means all software, documentation, multimedia files, data, updates, and other items made available to you through or in connection with XRCC, excluding UGC.</p></div><div style="display:contents" dir="auto"><p id="d0cd3a65-44d1-4201-b6ed-db1b3862e41a" class="">(g) &quot;<strong>Effective Date</strong>&quot; means the date on which you first accept this Agreement or first install or use XRCC, whichever is earliest.</p></div><div style="display:contents" dir="auto"><p id="17ba5198-772d-4e5d-9471-74f47b86e8da" class="">(h) &quot;<strong>Licensed Tier</strong>&quot; means the tier of XRCC license assigned to you, being a Trial License, an Annual Subscription, or a Perpetual License. The Licensed Tier governs the legal scope of your right to use XRCC. The specific features available to you within a Licensed Tier may be configured by VOTANIC from time to time and are not separately defined in this Agreement.</p></div><div style="display:contents" dir="auto"><p id="64f0345f-7f08-4a6a-bd5f-58c8c0931edd" class="">(i) &quot;<strong>Order Form</strong>&quot; means the purchase order, sales order, or similar document under which your paid license to XRCC was issued by VOTANIC. A Trial License does not require an Order Form.</p></div><div style="display:contents" dir="auto"><p id="15d5d5e6-10e9-442b-a093-f1dec642dc9e" class="">(j) &quot;<strong>Perpetual License</strong>&quot; means the Licensed Tier described in Section 3.2(c).</p></div><div style="display:contents" dir="auto"><p id="4366ddf1-c949-46b1-8cd1-66589798307f" class="">(k) &quot;<strong>Subscription Term</strong>&quot; means the period during which an Annual Subscription is in effect, as set out in the relevant Order Form.</p></div><div style="display:contents" dir="auto"><p id="7868ecd0-c942-486f-b498-c941a427594b" class="">(l) &quot;<strong>Telemetry</strong>&quot; means crash reports, error logs, diagnostic data, and (where you have not opted out) usage analytics that XRCC may transmit to VOTANIC.</p></div><div style="display:contents" dir="auto"><p id="3f7d040a-97ba-4b04-9aaf-3e99c43d5a64" class="">(m) &quot;<strong>Trial License</strong>&quot; means the Licensed Tier described in Section 3.2(a).</p></div><div style="display:contents" dir="auto"><p id="a263d9d8-3419-4b5a-b2ed-6b2887f10a63" class="">(n) &quot;<strong>User-Generated Content</strong>&quot; or &quot;<strong>UGC</strong>&quot; has the meaning given in Section 6.1.</p></div><div style="display:contents" dir="auto"><p id="f4256ffb-e39a-409a-a077-c7239b2d5bfc" class="">(o) &quot;<strong>VOTANIC</strong>&quot;, &quot;<strong>we</strong>&quot;, &quot;<strong>us</strong>&quot;, or &quot;<strong>our</strong>&quot; means VOTANIC Limited, a company incorporated in Hong Kong.</p></div><div style="display:contents" dir="auto"><p id="2c1fd3dc-4305-4122-bc31-bcd531aeec20" class="">(p) &quot;<strong>VOTANIC Intellectual Property</strong>&quot; means all intellectual property rights owned or licensed by VOTANIC and used in or in connection with XRCC, including without limitation copyrights, trademarks, service marks, patents, registered and unregistered designs, trade secrets, know-how, and database rights.</p></div><div style="display:contents" dir="auto"><p id="50937e65-5bce-4d65-86f1-fb78f171511e" class="">(q) &quot;<strong>XRCC</strong>&quot; means the Extended Reality Content Creator software made available by VOTANIC, including (i) the XRCC launcher application, (ii) all versions of the XRCC creator software downloaded or installed through the launcher, (iii) all Content, AI Features, updates, patches, online services, and accompanying documentation delivered with or made available through the foregoing, and (iv) any successor, replacement, or related software that VOTANIC designates as being subject to this Agreement. References to &quot;XRCC&quot; include any version VOTANIC makes available under this Agreement from time to time.</p></div><div style="display:contents" dir="auto"><p id="7e897128-0ead-4cb2-8253-453dceb031e7" class="">(r) &quot;<strong>You</strong>&quot;, &quot;<strong>Your</strong>&quot;, or &quot;<strong>Licensee</strong>&quot; means the individual or entity accepting this Agreement and, where you accept on behalf of an organization, that organization.</p></div><div style="display:contents" dir="auto"><p id="8d5d554e-4e57-4152-8783-1a55e7ed8d56" class="">1.2 <strong>Construction.</strong> References to sections are to sections of this Agreement. Headings are for convenience only and do not affect interpretation. &quot;Including&quot; and &quot;such as&quot; are illustrative and not exhaustive. Singular includes plural and vice versa.</p></div><div style="display:contents" dir="auto"><hr id="8ec1ad4a-6c6c-458e-b530-4e33cf63c4c8"/></div><div style="display:contents" dir="auto"><h2 id="13d69993-9910-4bad-9172-e5ddd263fd25" class="">2. Acceptance and Eligibility</h2></div><div style="display:contents" dir="ltr"><figure class="callout" style="white-space:pre-wrap;display:flex" id="7b7d3a54-45af-48f6-868a-54b966cf293b"><div style="width:100%"><div style="display:contents" dir="auto"><p id="c008cb66-14be-4f7a-a0df-1f572f3edd00" class="">Before you can use XRCC, you must accept this Agreement. You must be old enough and have the authority to do so. If you are using XRCC for an organization (a school, employer, or partner), you confirm you have authority to bind that organization.</p></div></div></figure></div><div style="display:contents" dir="auto"><p id="3adbf14f-e6d7-4d8e-852b-10bcfd6d75dd" class="">2.1 <strong>How You Accept.</strong> You accept this Agreement by any of the following: (a) clicking, tapping, or selecting an &quot;I accept&quot;, &quot;I agree&quot;, or equivalent button presented to you in the XRCC launcher, installer, or any version of the XRCC software; (b) installing, copying, downloading, or otherwise using XRCC; or (c) entering or otherwise using a valid license key issued by VOTANIC. If you do not accept this Agreement, you must not install, access, or use XRCC.</p></div><div style="display:contents" dir="auto"><p id="e2289f61-aa7f-48e0-bb7c-353c1bd44958" class="">2.2 <strong>When This Agreement Is Presented.</strong> Because this Agreement is versioned independently of XRCC, VOTANIC presents this Agreement for acceptance whenever its records do not show that you have accepted the then-current version. The points of presentation include:</p></div><div style="display:contents" dir="auto"><p id="19ed51b7-aebc-45e4-a7f9-71c838bb23a9" class="">(a) during installation of the XRCC launcher (a required step of installation);</p></div><div style="display:contents" dir="auto"><p id="5c7cdcfa-77f5-41a5-8ef4-314f6fea3381" class="">(b) on first launch of the XRCC launcher;</p></div><div style="display:contents" dir="auto"><p id="5abc838c-3fc7-42b2-b726-31aa639bdbf6" class="">(c) on first launch of any version of the XRCC creator software downloaded through the launcher; and</p></div><div style="display:contents" dir="auto"><p id="215de78d-a780-4e71-8985-6888971f1f60" class="">(d) on any later launch of the XRCC launcher or any version of the XRCC creator software, where VOTANIC&#x27;s records do not show that you have accepted the then-current version of this Agreement.</p></div><div style="display:contents" dir="auto"><p id="149730d3-785e-444e-9dc4-42c2cfb85b6d" class="">Acceptance at any of these points constitutes acceptance for the corresponding installation and use. You may be required to re-accept this Agreement following a material change to this Agreement (see Section 15) or on installation or first launch of a new version of XRCC.</p></div><div style="display:contents" dir="auto"><p id="b8063997-156b-4f11-a9d8-122bb84f042e" class="">2.3 <strong>Eligibility.</strong> You must have reached the age at which you may lawfully enter into a contract of this kind in your jurisdiction (which is 18 in Hong Kong) and you must have the legal capacity to enter into a binding contract. A person below the age of contract may use XRCC only as a Minor User under Section 2.6.</p></div><div style="display:contents" dir="auto"><p id="51fff562-5fc6-46a8-9da7-4cbde4e93f57" class="">2.4 <strong>Acceptance on Behalf of an Organization.</strong> If you accept this Agreement on behalf of an organization (including a school, college, university, government body, public sector organization, commercial enterprise, or Authorized Partner), you represent and warrant that: (a) you have full power and authority to bind that organization to this Agreement; (b) the organization has the legal capacity to enter into this Agreement; and (c) the organization (and not you personally) is the Licensee bound by this Agreement. References to &quot;you&quot;, &quot;Your&quot;, and &quot;Licensee&quot; in this Agreement mean both you individually and the organization on whose behalf you accept, except where context plainly requires otherwise.</p></div><div style="display:contents" dir="auto"><p id="1981bb54-9ccc-402d-b481-9d64dd6b847a" class="">2.5 <strong>Acceptance Logging.</strong> VOTANIC may record your acceptance of this Agreement, including the version accepted, the date and time of acceptance, the user account or device involved, and (where applicable) the Order Form or license key referenced. You acknowledge that such records may be used as evidence of your acceptance.</p></div><div style="display:contents" dir="auto"><p id="83318af8-ac17-4892-bcc0-ef0043b69cd4" class="">2.6 <strong>Minors and Supervised Use.</strong> Where XRCC is used by a person below the age at which they may lawfully enter into a contract of this kind in their jurisdiction (a &quot;<strong>Minor User</strong>&quot;, for example a K–12 student in a classroom or a child using XRCC at home), an adult of contracting age (or an institution acting through such a person) must accept this Agreement as the Licensee on the Minor User&#x27;s behalf (the &quot;<strong>Supervising Licensee</strong>&quot;). The Supervising Licensee is bound by this Agreement in respect of the Minor User&#x27;s use and is responsible for: (i) the Minor User&#x27;s compliance with this Agreement; (ii) any parental, guardian, or data-protection consents required by applicable law in relation to the Minor User; and (iii) supervising the Minor User&#x27;s use of XRCC and AI Features, including the Section 5.4 prohibited content. A Minor User&#x27;s click-through alone, without a Supervising Licensee, does not authorize use of XRCC, and Minor Users acquire no separate rights under this Agreement.</p></div><div style="display:contents" dir="auto"><hr id="76938642-2104-42ae-8671-e38f747ea16d"/></div><div style="display:contents" dir="auto"><h2 id="f1a56035-4144-4cd5-b004-f54baa9f3deb" class="">3. Grant of License</h2></div><div style="display:contents" dir="ltr"><figure class="callout" style="white-space:pre-wrap;display:flex" id="bec46103-640d-4e81-9551-2bd06b4ab91f"><div style="width:100%"><div style="display:contents" dir="auto"><p id="b7cab9a3-ef8c-4751-876e-f79c8678807f" class="">We grant you a license to use XRCC according to your tier — Trial License, Annual Subscription, or Perpetual License. Using XRCC to deliver paid experiences or services to people outside your organization (&quot;Commercial Use&quot;) is not included; it requires either a separate written commercial license or an Authorized Partner agreement with us. Internal use by your own organization — even if you are a for-profit enterprise — is not Commercial Use and is permitted under the standard tiers.</p></div></div></figure></div><div style="display:contents" dir="auto"><p id="a5453daa-d6f3-42aa-b25c-69a73f3d67b6" class="">3.1 <strong>License Grant.</strong> Subject to your continuing compliance with this Agreement and payment of all applicable fees, VOTANIC grants you a non-exclusive, non-transferable, non-sublicensable, revocable license to install and use XRCC solely in accordance with your Licensed Tier and any applicable Order Form, and solely for the purposes permitted under Section 3.3.</p></div><div style="display:contents" dir="auto"><p id="dd2c4352-cd86-480f-912d-4d07d62226bd" class="">3.2 <strong>Licensed Tiers.</strong> The Licensed Tiers are:</p></div><div style="display:contents" dir="auto"><p id="3b87831f-3012-46be-a657-839f424a1295" class="">(a) <strong>Trial License</strong> — a time-limited evaluation license. A Trial License is subject to time limits, feature restrictions, and a visible watermark displayed within XRCC during both editing and playback, in each case as configured by VOTANIC from time to time. A Trial License may not be combined, stacked, or renewed by the same Licensee, and is intended solely for evaluation, not for production use.</p></div><div style="display:contents" dir="auto"><p id="3e6909e2-0a06-47af-b787-fdbe922fa8c5" class="">(b) <strong>Annual Subscription</strong> — a license for the Subscription Term identified in your Order Form, on a per-seat basis or as part of a bundle. Each seat permits use by one (1) named individual at a time. Subscription bundles are subject to the seat count and use restrictions stated in the relevant Order Form.</p></div><div style="display:contents" dir="auto"><p id="824c3962-447d-49cd-b843-2db008231f0a" class="">(c) <strong>Perpetual License</strong> — a license without a defined expiry term, available solely to Licensees designated in writing by VOTANIC by way of an Order Form expressly stating &quot;Perpetual.&quot; VOTANIC may, in its sole discretion, decline to offer Perpetual Licenses to any prospective Licensee.</p></div><div style="display:contents" dir="auto"><p id="be44a55a-986d-4880-ab1b-80cd9cef3c91" class="">3.3 <strong>Permitted Purposes.</strong> The license granted under Section 3.1 permits: (a) personal, internal use by an individual Licensee; (b) instructional, training, and educational use by schools, colleges, universities, and other educational institutions; (c) internal operational, training, instructional, research, evaluation, and professional-development use by any organization (whether commercial or non-commercial, including for-profit enterprises, government bodies, public sector organizations, and other organizations), within that organization or its corporate group; and (d) the delivery of training, workshops, instruction, demonstrations, or distribution by an Authorized Partner strictly within the scope of that party&#x27;s written agreement with VOTANIC. In each case, the license is granted only in accordance with your Licensed Tier and the restrictions set out in Section 4, and does not permit Commercial Use except as expressly permitted under paragraph (d) above or under a separate written commercial license from VOTANIC.</p></div><div style="display:contents" dir="auto"><p id="96c59c0c-9458-40b8-8cb4-a576cc4e51d3" class="">3.4 <strong>No Commercial Use Except by Written Agreement.</strong> The license granted under Section 3.1 does not include any right to make Commercial Use of XRCC or UGC. Any Commercial Use requires, before such use commences, either (a) a separate written commercial license from VOTANIC, or (b) status as an Authorized Partner under a written partnership, reseller, or workshop-provider agreement with VOTANIC, and in each case must remain within the scope of that license or agreement. As of the Effective Date of this Agreement, VOTANIC does not generally offer standalone commercial licenses; if your intended use is, or may become, Commercial Use that is not already authorized under an existing partnership agreement, you must contact VOTANIC at <a href="mailto:enquiry@votanic.com">enquiry@votanic.com</a>.</p></div><div style="display:contents" dir="auto"><p id="7c20ffe3-69ad-4d2f-b0fb-d4b5680deafb" class="">3.5 <strong>Reservation of Rights.</strong> All rights not expressly granted in this Agreement are reserved by VOTANIC. No rights are granted by implication, estoppel, or otherwise.</p></div><div style="display:contents" dir="auto"><p id="1d1fce7e-a025-41e0-9466-5f75adbef18e" class="">3.6 <strong>Tier Verification and License Keys.</strong> VOTANIC may use technical means — including license keys, activation checks, and seat-management mechanisms — to verify your Licensed Tier, seat count, and continued eligibility. You must not circumvent, disable, tamper with, or interfere with any such measures, and you must not share, transfer, or reassign license keys or seats except as expressly permitted by VOTANIC in writing. License activation generally requires an active internet connection; if you do not have internet access at the time of activation, contact VOTANIC at <a href="mailto:enquiry@votanic.com">enquiry@votanic.com</a> to request offline activation.</p></div><div style="display:contents" dir="auto"><p id="36211975-85df-4f16-a279-ff4ec548cbd2" class="">3.7 <strong>Updates within Tier.</strong> VOTANIC may release updates, patches, and new versions of XRCC. Such updates form part of XRCC and are governed by this Agreement unless accompanied by separate terms.</p></div><div style="display:contents" dir="auto"><hr id="ba27c6c8-8eab-49b1-afd6-b00af5767843"/></div><div style="display:contents" dir="auto"><h2 id="1c41eca1-1448-4ec4-bee5-5cd5b911ba1f" class="">4. License Restrictions</h2></div><div style="display:contents" dir="ltr"><figure class="callout" style="white-space:pre-wrap;display:flex" id="ccdfa3c7-772d-497c-940a-b78f420cfc4e"><div style="width:100%"><div style="display:contents" dir="auto"><p id="f6b58a73-374a-400b-bbd1-c346ce59d630" class="">There are things you cannot do with XRCC. You cannot reverse-engineer it, share license keys, remove the watermark, or use XRCC to build a competing product. Full list below.</p></div></div></figure></div><div style="display:contents" dir="auto"><p id="d6f61cb7-f2cd-4cd3-a9e2-5df1b25ed64b" class="">4.1 <strong>General.</strong> Except to the extent expressly permitted by this Agreement or by applicable law that cannot be excluded by contract, you must not, and must not permit or assist any third party to:</p></div><div style="display:contents" dir="auto"><p id="767c0668-4f27-4743-bdf6-58fb93b1f129" class="">(a) copy, reproduce, distribute, publish, transmit, sublicense, lease, rent, lend, sell, resell, or otherwise transfer or make XRCC (or any part of it) available to any third party;</p></div><div style="display:contents" dir="auto"><p id="39ce0dde-0634-4a97-9156-2f7e6ebd9fd3" class="">(b) decompile, disassemble, reverse engineer, derive source code or underlying algorithms or models from, or otherwise attempt to discover the internal structure of, XRCC or any component of XRCC, including any AI Features, license-key system, or watermark mechanism;</p></div><div style="display:contents" dir="auto"><p id="15ef7f53-0541-4596-9abe-19701ea25a5b" class="">(c) modify, adapt, translate, port, or create derivative works of XRCC, or attempt to do so;</p></div><div style="display:contents" dir="auto"><p id="40d1b3a4-7622-4595-8e6b-051cf020abc7" class="">(d) circumvent, disable, tamper with, interfere with, or attempt to bypass any license key, activation check, seat-management mechanism, watermark, digital rights management measure, technological protection measure, telemetry mechanism, or other security or enforcement feature of XRCC;</p></div><div style="display:contents" dir="auto"><p id="e893851e-64b5-489f-bede-1370c834ef98" class="">(e) share, transfer, sublicense, reassign, or pool license keys, seats, or user accounts across persons who are not authorized under your Order Form, or use one seat to provide concurrent access to more than one (1) individual;</p></div><div style="display:contents" dir="auto"><p id="4a162d91-dd10-447a-abfb-2db133a1a16f" class="">(f) remove, alter, conceal, or obscure any proprietary notice, label, copyright notice, trademark, watermark, or attribution displayed in or by XRCC, including the watermark displayed in connection with a Trial License;</p></div><div style="display:contents" dir="auto"><p id="58d0de6a-a03e-478a-ba1f-d04f2b0a201e" class="">(g) use XRCC, the outputs of XRCC, or any data derived from XRCC to develop, train, fine-tune, evaluate, benchmark, or otherwise improve any artificial intelligence model, machine learning model, large language model, or competing extended-reality, virtual-reality, augmented-reality, or 3D content authoring tool or platform;</p></div><div style="display:contents" dir="auto"><p id="12d932a0-ad4d-4bc6-8a13-a8b572fcd8aa" class="">(h) publish, disclose, or otherwise communicate the results of any benchmark, performance test, or comparative evaluation of XRCC without VOTANIC&#x27;s prior written consent;</p></div><div style="display:contents" dir="auto"><p id="c0a96980-e88d-49ed-b987-7c93e42e7d96" class="">(i) use XRCC to develop, host, deliver, or support any product, service, or platform that competes with XRCC;</p></div><div style="display:contents" dir="auto"><p id="2d7e7f50-158c-4980-ae0a-cd379307c119" class="">(j) use XRCC in any manner that violates this Agreement (including the Acceptable Use restrictions in Section 5), any Order Form, or any applicable law;</p></div><div style="display:contents" dir="auto"><p id="7f12331b-930b-4679-a6ad-7e1ce153e245" class="">(k) make Commercial Use of XRCC or UGC except as expressly permitted by Section 3 and any separate written commercial license or Authorized Partner agreement; or</p></div><div style="display:contents" dir="auto"><p id="ce1a781a-db3d-4a06-8ada-f90031af4c49" class="">(l) authorize, encourage, or assist any third party to do any of the foregoing.</p></div><div style="display:contents" dir="auto"><p id="7941eeb5-9fa8-4568-9092-82ccf862fcf1" class="">4.2 <strong>Mandatory Local Law Exceptions.</strong> Nothing in this Section 4 restricts your rights to the extent those rights may not, under applicable law, be excluded by contract — for example, certain narrow rights of interoperability or back-up under copyright law. Where you intend to exercise such a right, you must first notify VOTANIC and provide VOTANIC a reasonable opportunity to provide the relevant information or to permit the activity on alternative terms.</p></div><div style="display:contents" dir="auto"><p id="29a1dc54-034c-4409-8c6a-b381eb0546a6" class="">4.3 <strong>Effect of Breach.</strong> Any breach of this Section 4 is a material breach of this Agreement. VOTANIC may, in addition to any other remedy, suspend or terminate your license under Section 16, revoke license keys, and pursue injunctive relief without posting bond.</p></div><div style="display:contents" dir="auto"><hr id="dceb72ae-3ca5-48c2-9686-d97c30d0e60b"/></div><div style="display:contents" dir="auto"><h2 id="c96fe372-5d22-465e-b94b-0b42f487011c" class="">5. AI Features and Acceptable Use</h2></div><div style="display:contents" dir="ltr"><figure class="callout" style="white-space:pre-wrap;display:flex" id="6b0c431f-ab3a-4225-bd1d-7707f799a56f"><div style="width:100%"><div style="display:contents" dir="auto"><p id="c67725f0-8c09-449d-97a7-e0da231659b0" class="">You can use the AI Features in XRCC, but you are responsible for what you create with them. You bring your own AI provider account — we do not host AI inference for you. And there are things you absolutely cannot create with XRCC, set out in the prohibited use list below.</p></div></div></figure></div><div style="display:contents" dir="auto"><p id="7442abd3-eed2-483d-b69e-434440542346" class="">5.1 <strong>AI Features Overview.</strong> XRCC may include or interoperate with AI Features. As of the Effective Date, XRCC supports AI Features by connecting to third-party AI services using credentials (such as API keys) that you provide and configure yourself (&quot;<strong>Bring-Your-Own AI</strong>&quot;). VOTANIC does not provide AI inference services for AI Features and does not act as a sub-processor of your AI provider.</p></div><div style="display:contents" dir="auto"><p id="f2e58708-7bcd-4d0c-b888-8b52eb748f4c" class="">5.2 <strong>Bring-Your-Own AI Credentials.</strong> You are responsible for: (a) obtaining and maintaining any third-party AI account, subscription, or credential required to use AI Features; (b) complying with the terms of service, acceptable-use policies, and privacy notices of your AI provider; (c) any fees, usage charges, or rate limits applied by your AI provider; and (d) the lawfulness of the prompts, inputs, and outputs you generate via the AI Features. XRCC may locally encrypt AI credentials with a password you set; VOTANIC does not transmit your AI credentials to its servers.</p></div><div style="display:contents" dir="auto"><p id="5f656bd5-fbb5-4dfd-9c86-b2e27981b05f" class="">5.3 <strong>No Reliance; No Warranty as to AI Outputs.</strong> AI Features generate outputs probabilistically. AI outputs may be inaccurate, biased, incomplete, offensive, infringing, or otherwise unsuitable. AI outputs are not professional advice and must not be relied upon for any high-stakes decision. AI outputs are provided &quot;AS IS&quot; and are excluded from the VOTANIC IP Indemnity in Section 12 (see Section 12.2(b)). You are solely responsible for reviewing AI outputs before using, publishing, sharing, or otherwise relying on them.</p></div><div style="display:contents" dir="auto"><p id="c422deed-9d4d-4969-b1b6-d63450bc603f" class="">5.4 <strong>Acceptable Use of XRCC and AI Features.</strong> You must not use XRCC or AI Features, and must not permit or encourage any other person to use XRCC or AI Features, to create, generate, store, transmit, distribute, display, perform, or facilitate any of the following:</p></div><div style="display:contents" dir="auto"><p id="2323f54f-4e1f-4ec5-9060-a515cd902fdd" class="">(a) <strong>Child sexual abuse material and minor exploitation.</strong> Any content that depicts, describes, sexualizes, or sexually exploits any minor; any content intended to groom, solicit, or facilitate the abuse or exploitation of a minor; or any other content prohibited under laws protecting minors;</p></div><div style="display:contents" dir="auto"><p id="fa8405ba-e266-4c17-950d-ad6d180f5810" class="">(b) <strong>Weapons and attack content.</strong> Instructions, designs, or training material for the development, acquisition, or use of weapons (including firearms, explosives, chemical, biological, radiological, or nuclear devices), or for the planning or execution of attacks on persons, infrastructure, or systems;</p></div><div style="display:contents" dir="auto"><p id="453d6848-0224-45b9-9efd-af3b955151ae" class="">(c) <strong>Discrimination, hate, and incitement.</strong> Content that promotes, glorifies, incites, or facilitates violence, hatred, harassment, or discrimination against any individual or group on the basis of race, ethnicity, national origin, religion, caste, sex, gender, sexual orientation, gender identity, disability, age, immigration status, or any other characteristic protected by applicable law;</p></div><div style="display:contents" dir="auto"><p id="fbbb9427-adb0-4667-99ec-ed63acf8ef2b" class="">(d) <strong>Misuse against vulnerable persons.</strong> Content or use that subjects detainees, suspects, prisoners, defendants, complainants, witnesses, patients, students, employees, minors, or other persons in vulnerable, dependent, or subordinate positions to coercion, humiliation, intimidation, manipulation, harassment, or any treatment that would breach applicable law, professional standards, or human-rights norms — including in the context of training, instruction, demonstration, interrogation, examination, or assessment;</p></div><div style="display:contents" dir="auto"><p id="dfa827b6-3ade-4036-a976-f7265228c241" class="">(e) <strong>Intellectual property infringement.</strong> Content that infringes any third party&#x27;s copyright, trademark, patent, trade secret, design right, publicity right, moral right, or other proprietary right, including by reproducing copyrighted material without authorization or generating outputs that are substantially similar to identifiable copyrighted works;</p></div><div style="display:contents" dir="auto"><p id="f28da508-3676-4610-a23a-6794ee71e914" class="">(f) <strong>Privacy and personal data violations.</strong> Content or activity that violates any person&#x27;s privacy, publicity, or personal-data rights, or that processes personal data in breach of applicable data protection law (including PDPO and GDPR);</p></div><div style="display:contents" dir="auto"><p id="5e3294c3-11e3-43a9-b307-79bcc05e5b7c" class="">(g) <strong>Deception and impersonation.</strong> Content that impersonates any person or entity, including the use of AI Features to generate realistic likenesses, voice, or biometric characteristics of a real person without that person&#x27;s verifiable consent, or content intended to deceive (such as fraudulent, phishing, or scam content);</p></div><div style="display:contents" dir="auto"><p id="25ed65c0-2ef3-4f6a-bff7-8e5a313d3367" class="">(h) <strong>Critical-impact misuse.</strong> Use of XRCC or AI outputs as the sole basis for decisions in employment, education admission or assessment, credit, insurance, healthcare diagnosis or treatment, law enforcement, judicial proceedings, immigration, or other contexts that materially affect a person&#x27;s legal rights, safety, or access to essential services;</p></div><div style="display:contents" dir="auto"><p id="e1907a32-6507-4447-9b98-5b439b6d2e1b" class="">(i) <strong>Unlawful, harmful, or fraudulent activity.</strong> Any other use that is unlawful under applicable law, that is fraudulent or deceptive, or that facilitates harm to any person.</p></div><div style="display:contents" dir="auto"><p id="732ae278-207d-474d-ae50-b108bb5b072e" class="">5.5 <strong>Pass-Through to Operators and Audience Members.</strong> If you deliver XRCC experiences to Audience Members (Section 6.9) or supervise others using XRCC (including minors in a classroom setting), you are responsible for ensuring that the experience and the supervised use comply with this Section 5. You must take reasonable steps to prevent any participant from causing XRCC to produce content prohibited under Section 5.4.</p></div><div style="display:contents" dir="auto"><p id="1954917d-5b47-4c01-996a-aca35e48c3cc" class="">5.6 <strong>Enforcement.</strong> VOTANIC may, without notice and in its sole discretion, suspend or terminate access to XRCC, AI Features, or both, in response to actual or suspected violation of this Section 5. VOTANIC may report violations to law enforcement, regulators, AI providers, or other competent authorities where required by law or where VOTANIC reasonably believes such report is appropriate.</p></div><div style="display:contents" dir="auto"><hr id="b6f4e642-7b9f-4d69-a50c-db514c2b4584"/></div><div style="display:contents" dir="auto"><h2 id="4439c8a7-07cc-49e3-a5fa-d7395bb58c10" class="">6. User-Generated Content</h2></div><div style="display:contents" dir="ltr"><figure class="callout" style="white-space:pre-wrap;display:flex" id="53f5426a-dbfc-4993-90c6-283def9bc8fd"><div style="width:100%"><div style="display:contents" dir="auto"><p id="1cf2a6b0-2ede-4f29-95f2-2fd8946c8aa1" class="">You own what you create with XRCC. We do not claim any rights to your work. If you choose to share your creations with us, that is handled through a separate written agreement with our sales team — this Agreement gives us no rights over your UGC by default.</p></div></div></figure></div><div style="display:contents" dir="auto"><p id="704424e1-1fb2-48cf-a8ac-884bcebf4e61" class="">6.1 <strong>Definition.</strong> &quot;<strong>User-Generated Content</strong>&quot; or &quot;<strong>UGC</strong>&quot; means projects, scenes, text, images, audio, video, configurations, prompts, and other content that you create, modify, configure, or import using XRCC.</p></div><div style="display:contents" dir="auto"><p id="a3c4de8e-e7da-4c36-973d-f6c0004a8f17" class="">6.2 <strong>Ownership.</strong> As between you and VOTANIC, and subject to any rights in VOTANIC Intellectual Property or in third-party material embedded in or made available through XRCC, you retain all rights, title, and interest in your UGC.</p></div><div style="display:contents" dir="auto"><p id="53eb0948-c8b6-4916-b18a-4de0f6a9768f" class="">6.3 <strong>No License to VOTANIC; User-to-User Transfers; No Extraction.</strong></p></div><div style="display:contents" dir="auto"><p id="e6f38264-9634-441c-8625-69c6b1c04420" class="">(a) <strong>No license to VOTANIC.</strong> This Agreement does not grant VOTANIC any license to access, copy, store, distribute, display, modify, exploit, or otherwise use your UGC, except as expressly provided in Sections 6.4 (Voluntary Sharing) and 6.7 (Debug and Support License). VOTANIC does not host UGC on its servers as part of XRCC&#x27;s standard operation and does not access UGC by default.</p></div><div style="display:contents" dir="auto"><p id="2871e874-2dfe-4b3d-97fe-3a2469bd517f" class="">(b) <strong>User-to-user transfers.</strong> XRCC does not provide an in-product feature for distributing UGC to other users. You may, however, transfer XRCC project files (including UGC contained in them) to other users outside XRCC — for example, by sending a project file directly. Any such transfer is undertaken by you outside the scope of XRCC&#x27;s product features and at your sole risk. Where a recipient opens a transferred XRCC project file in XRCC, that recipient&#x27;s use of XRCC and of the transferred content is governed by the recipient&#x27;s own acceptance of this Agreement, and you must not represent that any rights are granted to the recipient under this Agreement other than those the recipient obtains directly from VOTANIC.</p></div><div style="display:contents" dir="auto"><p id="d32b90f1-bd1e-4b8a-97e9-319e023e7efd" class="">(c) <strong>No extraction outside XRCC.</strong> XRCC may locally cache, consolidate, rename, encode, or otherwise transform imported assets for the purpose of running XRCC projects. Such cached, consolidated, or transformed artifacts are part of XRCC&#x27;s internal operation and are not intended for use outside XRCC. You must not extract, decompile, reverse engineer, repackage, decrypt, rename, or otherwise attempt to retrieve, isolate, or repurpose embedded third-party assets, VOTANIC Content, or AI Feature components from XRCC&#x27;s cached, consolidated, or project files, except (i) as expressly permitted by VOTANIC in writing, or (ii) to the extent that applicable law expressly prohibits such restriction.</p></div><div style="display:contents" dir="auto"><p id="2f9ea398-5039-46d1-956f-ca014456c1cd" class="">(d) <strong>Your responsibility for transfers.</strong> When you transfer UGC or XRCC project files to any third party, you are responsible for ensuring that you have all rights necessary to do so (including in any third-party assets contained in the transfer) and that the transfer complies with this Agreement and applicable law.</p></div><div style="display:contents" dir="auto"><p id="096e35fd-35c8-4c28-b119-4fa189f62eb0" class="">6.4 <strong>Voluntary Sharing with VOTANIC.</strong> If you voluntarily provide UGC to VOTANIC outside a Support Submission (Section 6.7) — for example, by sending project files to VOTANIC personnel, demonstrating UGC to VOTANIC, or otherwise sharing UGC with VOTANIC — you grant VOTANIC a non-exclusive, royalty-free, worldwide license to access, store, view, copy, and internally analyze the shared UGC solely for VOTANIC&#x27;s internal evaluation, quality assurance, and product-improvement purposes. This license does not authorize VOTANIC to publish, distribute, sublicense, publicly display, or otherwise externally use your UGC for any purpose, including marketing, promotion, public demonstration, redistribution, or inclusion in any content library, and VOTANIC will not use your UGC to train AI models. Any external use of your UGC by VOTANIC (including any marketing, promotional, public-demonstration, distribution, content-library, or AI-training use) requires a separate written agreement between you and VOTANIC.</p></div><div style="display:contents" dir="auto"><p id="09f1af82-7281-45cf-a794-b9bfd2b95919" class="">6.5 <strong>Your Responsibility for UGC.</strong> You are solely responsible for your UGC, including ensuring that: (a) you own or have all rights necessary to create, use, and (where applicable) share your UGC; (b) your UGC does not infringe any third party&#x27;s intellectual property, privacy, publicity, or other rights; (c) your UGC complies with applicable law and with the Acceptable Use restrictions in Section 5; and (d) you are permitted to process any personal data contained in your UGC under applicable data protection laws.</p></div><div style="display:contents" dir="auto"><p id="b4c93bcb-9690-4563-885f-9eb23ab9a587" class="">6.6 <strong>No VOTANIC Endorsement.</strong> UGC is not reviewed, endorsed, approved, or verified by VOTANIC. VOTANIC assumes no responsibility for UGC made available by any Licensee or third party.</p></div><div style="display:contents" dir="auto"><p id="b9101593-cbdf-48f9-a38d-9502ee6cb32f" class="">6.7 <strong>Debug and Support License.</strong> If you voluntarily submit UGC, project files, scenes, prompts, configurations, logs, or other content to VOTANIC for the purpose of issue diagnosis, debugging, technical support, or bug reproduction (a &quot;<strong>Support Submission</strong>&quot;), you grant VOTANIC a non-exclusive, royalty-free, worldwide license to access, reproduce, store, modify, run, and analyze the Support Submission solely to the extent reasonably necessary to: (a) provide technical support to you; (b) diagnose, reproduce, and resolve the issue reported; and (c) improve the stability, security, and quality of XRCC. This license terminates when the relevant support matter is closed, except that VOTANIC may retain copies in its internal issue tracker and crash database in accordance with its then-current retention policy. Any use of a Support Submission beyond the purposes stated in this Section 6.7 — including marketing, redistribution, public display, training of AI models, or inclusion in the XRCC content library — is not granted under this Agreement and remains subject to the separate written agreement contemplated in Section 6.4.</p></div><div style="display:contents" dir="auto"><p id="fa4c1308-309b-4869-bb9c-ac8edf79bf62" class="">6.8 <strong>Submission Hygiene.</strong> You are responsible for reviewing any Support Submission before sending it to VOTANIC and for removing third-party content, personal data, credentials, and confidential information that are not necessary to reproduce the reported issue. You represent and warrant that you have all rights and authority necessary to provide the Support Submission to VOTANIC for the purposes set out in Section 6.7.</p></div><div style="display:contents" dir="auto"><p id="74bfce46-149f-4f87-99f5-b9a9742bd045" class="">6.9 <strong>Use with Non-Licensee Audiences.</strong> You may use XRCC and UGC to deliver experiences to audiences, viewers, participants, students, trainees, visitors, or other third parties who do not themselves install or use XRCC and who are not Licensees (&quot;<strong>Audience Members</strong>&quot;), provided that:</p></div><div style="display:contents" dir="auto"><p id="9341e35b-b3c0-4570-a172-07c078236113" class="">(a) <strong>Operator responsibility.</strong> You remain the Licensee operating XRCC and are responsible for all aspects of the experience delivered to Audience Members, including the conduct of Audience Members during the experience.</p></div><div style="display:contents" dir="auto"><p id="85dbd3dd-3ab8-4a44-a3a3-726f17eb0dcc" class="">(b) <strong>Health, safety, and consent.</strong> You will provide Audience Members with health, safety, accessibility, and content warnings reasonably appropriate to the experience and to extended reality use generally, including without limitation warnings concerning photosensitive seizures, motion sickness, disorientation, fatigue, eye strain, and content suitability for the age and circumstances of the audience. Where Audience Members include minors, you will obtain any consents required by applicable law from their parents or guardians, and you will obtain any other consents required by applicable law (including for biometric or personal data processed by your hardware or your environment).</p></div><div style="display:contents" dir="auto"><p id="4ba3e5a0-9374-4b58-8583-d32f7a2daf54" class="">(c) <strong>No rights conferred on Audience Members.</strong> Audience Members acquire no rights under this Agreement, no license to XRCC, and no contractual relationship with VOTANIC. VOTANIC owes no obligation, warranty, indemnity, or duty of any kind to any Audience Member arising out of or in connection with this Agreement or the experience you deliver, and you will not represent to any Audience Member that VOTANIC has any such obligation or duty.</p></div><div style="display:contents" dir="auto"><p id="13adff9d-73cb-4f6f-b233-3ceccee4bac1" class="">(d) <strong>No use of VOTANIC marks.</strong> You will not use VOTANIC&#x27;s name, logos, trademarks, service marks, or other marks in connection with the experience except as expressly authorized by VOTANIC in writing, save for a neutral factual reference to the fact that the experience was created with XRCC.</p></div><div style="display:contents" dir="auto"><p id="e8f6e210-6893-4ec0-b571-a325b9f62745" class="">(e) <strong>Pass-through compliance.</strong> You will ensure that the experience, the UGC delivered to Audience Members, and the conduct of Audience Members comply with this Agreement (including the Acceptable Use restrictions in Section 5), with applicable laws (including health, safety, accessibility, public-exhibition, broadcasting, and data-protection laws), and with any consents you have obtained.</p></div><div style="display:contents" dir="auto"><p id="18041b2c-e4ac-4720-99a8-ed3afaa0dcd8" class="">(f) <strong>Indemnity.</strong> Without limiting Section 13 (Customer Indemnity), you will indemnify, defend, and hold VOTANIC harmless from any claim brought by or on behalf of any Audience Member arising out of or in connection with the experience you deliver using XRCC or UGC, except to the extent the claim arises directly from an Infringement Claim covered by VOTANIC under Section 12.</p></div><div style="display:contents" dir="auto"><hr id="2417f990-70f1-4718-9b42-128377b869d4"/></div><div style="display:contents" dir="auto"><h2 id="ddd37345-29b5-4f84-9335-3f5a87d8bcd0" class="">7. Data Collection and Privacy</h2></div><div style="display:contents" dir="ltr"><figure class="callout" style="white-space:pre-wrap;display:flex" id="9ca5f230-8916-4f9f-9a70-8dfbdd396e5e"><div style="width:100%"><div style="display:contents" dir="auto"><p id="9df08080-9d70-4e00-8616-de3114f90689" class="">We collect a small amount of data to keep XRCC running smoothly and to fix bugs. Crash reports are always on. Usage analytics are on by default but you can turn them off. If you use AI Features, you connect to your own AI provider directly — your prompts and AI responses do not go to our servers. XRCC may cache prompts and responses locally on your device because some XRCC features need to pass that data between components; the cache stays on your device. We will never use your projects or prompts to train AI models without your express opt-in. Full details below.</p></div></div></figure></div><div style="display:contents" dir="auto"><p id="5d36d5f4-2524-4361-b632-6a0b0e2f5021" class="">7.1 <strong>Categories of Data.</strong> When you use XRCC, VOTANIC may collect or process the following categories of data:</p></div><div style="display:contents" dir="auto"><p id="1b4500a1-1b18-46d9-ae16-77cc2c7f47c6" class="">(a) <strong>License and account data</strong> — license key, Order Form reference, seat assignment, account identifier (if any), and acceptance records under Section 2.5.</p></div><div style="display:contents" dir="auto"><p id="2f925864-5d76-49bb-845d-2a3005e90aed" class="">(b) <strong>Telemetry — crash reports.</strong> Crash dumps, error logs, exception traces, hardware and operating-system information, XRCC version, and basic context required to diagnose and fix crashes. Crash report collection is always enabled and cannot be disabled while you continue to use XRCC.</p></div><div style="display:contents" dir="auto"><p id="55038006-b2d9-4ba7-8f7a-487f8d435263" class="">(c) <strong>Telemetry — usage analytics.</strong> Feature usage frequency, session duration, performance metrics, and configuration information that helps VOTANIC understand how XRCC is used and improve it. Usage analytics collection is enabled by default but you may opt out at any time within XRCC&#x27;s settings. Crash reports under paragraph (b) continue to be collected even where you have opted out of usage analytics.</p></div><div style="display:contents" dir="auto"><p id="2c65a3e2-4fbc-46e6-9cbf-c83854c57f48" class="">(d) <strong>Voluntary Sharing and Support Submissions</strong> — see Sections 6.4 and 6.7. Data shared with VOTANIC voluntarily or as part of a Support Submission is processed only for the purposes stated there.</p></div><div style="display:contents" dir="auto"><p id="98b4dc06-a2ee-4fe9-8686-c647410a2c27" class="">(e) <strong>Issue reports.</strong> Where you submit an issue report through XRCC&#x27;s in-product issue-report form, the form may collect your name, email address, issue description, and any attachments you choose to include. Issue reports are routed to VOTANIC&#x27;s private internal platform and are not made publicly accessible. You should not include personal data, credentials, or confidential information in an issue report that is not necessary to reproduce the issue (see Section 6.8 Submission Hygiene).</p></div><div style="display:contents" dir="auto"><p id="0ebc5a3a-9d80-4ba3-be87-f3374cedfabd" class="">7.2 <strong>AI Features and Your AI Provider.</strong> When you use AI Features (Section 5), the prompts, inputs, and outputs you generate are transmitted directly from XRCC to your configured third-party AI provider. VOTANIC does not intercept or proxy your AI traffic and does not transmit your prompts, inputs, or AI outputs to its servers. Your AI provider&#x27;s collection, use, and retention of your data are governed by that provider&#x27;s own terms and privacy policy, which you accept directly with that provider. XRCC may locally cache prompts, inputs, and AI outputs on your device where doing so is necessary for XRCC features to function (for example, to pass data between XRCC components in the same session or workflow). Such locally cached data remains on your device and is not transmitted to VOTANIC under this version of XRCC. Any future version of XRCC that collects prompts, inputs, or AI outputs server-side will be governed by an updated version of this Agreement and is subject to your acceptance of that updated version under Section 2.2.</p></div><div style="display:contents" dir="auto"><p id="373c95fe-ef99-42a5-90c8-8496b44b3c5c" class="">7.3 <strong>No Training without Opt-In.</strong> VOTANIC will not use your UGC, prompts, inputs, AI outputs, Support Submissions, or Voluntary Sharing content to train, fine-tune, or evaluate AI models without your express prior opt-in consent. Crash reports and usage analytics may be used for engineering and product-improvement analytics but are not used to train AI models.</p></div><div style="display:contents" dir="auto"><p id="75997fdf-1da9-4d32-b100-af7bbff9aa0f" class="">7.4 <strong>Processing Purposes.</strong> VOTANIC processes the data described in Section 7.1 for the following purposes: (a) providing and maintaining XRCC; (b) enforcing license terms, including detecting and responding to violations; (c) diagnosing, debugging, and resolving issues; (d) improving the stability, security, performance, and feature set of XRCC; (e) communicating with you about XRCC (including service notices, security advisories, and material changes to this Agreement); (f) complying with applicable law and responding to lawful requests; and (g) any other purpose disclosed to you at the time of collection.</p></div><div style="display:contents" dir="auto"><p id="5445c205-04e4-4127-8821-b2a766ccd822" class="">7.5 <strong>Retention.</strong> VOTANIC retains data for the period reasonably necessary to fulfil the purposes described in this Section 7, in accordance with VOTANIC&#x27;s then-current retention policy. By default, crash reports and issue reports are retained for not more than twenty-four (24) months from collection, unless retained longer in connection with a specific open issue, dispute, or legal obligation.</p></div><div style="display:contents" dir="auto"><p id="911d2d78-6dce-4d62-9c17-ed4aa84951a7" class="">7.6 <strong>PDPO and GDPR Alignment.</strong> VOTANIC processes personal data in accordance with the Personal Data (Privacy) Ordinance (Cap. 486) of Hong Kong and, where applicable, the EU General Data Protection Regulation and the UK General Data Protection Regulation. Where you are located in the European Economic Area, the United Kingdom, or another jurisdiction whose data protection law applies, you have such rights as those laws provide, including (subject to the conditions of those laws) the right to access, rectify, erase, restrict, port, and object to processing of your personal data. To exercise such rights or for any privacy enquiry, contact VOTANIC at <a href="mailto:enquiry@votanic.com">enquiry@votanic.com</a>.</p></div><div style="display:contents" dir="auto"><p id="b76c7ac2-464a-424a-bfcf-18fef1a2ecfd" class="">7.7 <strong>Privacy Notice.</strong> VOTANIC may make available a separate privacy notice through XRCC or VOTANIC&#x27;s website containing further detail about the data described in this Section 7. To the extent the privacy notice and this Section 7 conflict, this Section 7 controls for matters concerning your contractual relationship with VOTANIC.</p></div><div style="display:contents" dir="auto"><p id="5961704f-b2e9-4972-9b1e-5182929cfc34" class="">7.8 <strong>Security.</strong> VOTANIC maintains reasonable administrative, technical, and physical safeguards designed to protect the data described in this Section 7 against unauthorized access, disclosure, alteration, and loss. No method of electronic transmission or storage is wholly secure, and VOTANIC does not guarantee absolute security.</p></div><div style="display:contents" dir="auto"><hr id="f128edb9-0da2-4c57-9a19-1040be551b42"/></div><div style="display:contents" dir="auto"><h2 id="8a2b9859-3481-4792-89a2-3b7ffd5257b1" class="">8. Feedback</h2></div><div style="display:contents" dir="auto"><p id="69267e4a-554d-4fb7-b6d5-c4ca8b6df344" class="">8.1 <strong>Feedback License.</strong> If you provide VOTANIC with any suggestion, comment, idea, request, recommendation, or other feedback regarding XRCC, AI Features, or VOTANIC&#x27;s services (collectively, &quot;<strong>Feedback</strong>&quot;), you grant VOTANIC a non-exclusive, perpetual, irrevocable, royalty-free, worldwide, fully paid-up, sublicensable, and transferable license to use, reproduce, modify, distribute, prepare derivative works of, display, perform, and otherwise exploit such Feedback for any purpose, without obligation or compensation to you. VOTANIC is not required to use Feedback and may use Feedback without attribution.</p></div><div style="display:contents" dir="auto"><p id="83b0d152-4d3c-493e-84eb-fa47343b6e92" class="">8.2 <strong>No Confidentiality.</strong> You agree that Feedback is provided on a non-confidential basis. You must not include in Feedback any information that you consider confidential or proprietary, unless you have a separate written confidentiality agreement with VOTANIC covering that information.</p></div><div style="display:contents" dir="auto"><hr id="da2d237b-695c-4a1c-8dfb-633839e67246"/></div><div style="display:contents" dir="auto"><h2 id="59982500-09ce-4b38-9439-a6a0a9124504" class="">9. Intellectual Property</h2></div><div style="display:contents" dir="auto"><p id="b3657096-3879-46a3-966e-ea5a8c3ce5e5" class="">9.1 <strong>VOTANIC Ownership.</strong> As between you and VOTANIC, VOTANIC and its licensors own all right, title, and interest in and to XRCC, including all VOTANIC Intellectual Property, Content, AI Features (other than third-party AI services accessed via Bring-Your-Own AI), and any modifications, derivative works, or improvements thereto, regardless of who creates them, subject only to your rights in your UGC under Section 6. All rights not expressly granted to you in this Agreement are reserved by VOTANIC.</p></div><div style="display:contents" dir="auto"><p id="4229a4fb-c50e-40e5-a010-b77baea97088" class="">9.2 <strong>Trademarks.</strong> &quot;VOTANIC&quot;, &quot;XRCC&quot;, the VOTANIC and XRCC logos, and any related names, designs, and slogans are trademarks of VOTANIC. You must not use VOTANIC&#x27;s trademarks except as expressly permitted by this Agreement or with VOTANIC&#x27;s prior written consent. Use of XRCC does not grant you any right or license in any VOTANIC trademark.</p></div><div style="display:contents" dir="auto"><p id="9633ea61-7f6f-448b-a1fd-3ff2125509c1" class="">9.3 <strong>Third-Party Materials.</strong> XRCC may incorporate third-party software, libraries, models, content, or services (&quot;<strong>Third-Party Materials</strong>&quot;). Third-Party Materials may be subject to separate terms supplied by their respective rights holders. Where VOTANIC makes a list of Third-Party Materials available (see Section 17), the applicable separate terms apply to those Third-Party Materials and prevail over this Agreement to the extent of any conflict with respect to those materials only.</p></div><div style="display:contents" dir="auto"><p id="03f224c7-2da8-4b45-9d3f-8895588e04cc" class="">9.4 <strong>No Implied Licenses.</strong> No license, immunity, or other right is granted under this Agreement by implication, estoppel, exhaustion, or otherwise, except as expressly stated.</p></div><div style="display:contents" dir="auto"><hr id="10046c75-fe5a-417d-9e21-33c21f7bde76"/></div><div style="display:contents" dir="auto"><h2 id="e47949b6-74e3-4cfe-8084-714f911fd142" class="">10. Warranty Disclaimer</h2></div><div style="display:contents" dir="ltr"><figure class="callout" style="white-space:pre-wrap;display:flex" id="b28005f8-f96b-460b-ae3b-88f17a50b290"><div style="width:100%"><div style="display:contents" dir="auto"><p id="9df00a45-d5bc-4caa-b497-b20fca97ee7d" class="">XRCC is provided &quot;as is&quot;. We make no promises about its performance, suitability, or fit for any particular purpose. Some warranties cannot legally be excluded — those still apply to you.</p></div></div></figure></div><div style="display:contents" dir="auto"><p id="1c352966-4e3c-4037-9c8f-a5a698f169cd" class="">10.1 <strong>As-Is.</strong> TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, XRCC AND ALL CONTENT, AI FEATURES, AND RELATED SERVICES ARE PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot;, WITHOUT ANY WARRANTY, CONDITION, REPRESENTATION, OR GUARANTEE OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY.</p></div><div style="display:contents" dir="auto"><p id="5cbfc98a-b603-4895-9a5b-7e7f8739edb7" class="">10.2 <strong>Disclaimed Warranties.</strong> TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VOTANIC AND ITS LICENSORS DISCLAIM ALL IMPLIED OR STATUTORY WARRANTIES, CONDITIONS, REPRESENTATIONS, AND GUARANTEES, INCLUDING WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, COMPLETENESS, TITLE, NON-INFRINGEMENT, QUIET ENJOYMENT, COURSE OF DEALING, COURSE OF PERFORMANCE, AND USAGE OF TRADE.</p></div><div style="display:contents" dir="auto"><p id="dcb13a4a-fcd0-43a4-b256-4a445e5cd4d3" class="">10.3 <strong>No Specific Performance Promise.</strong> VOTANIC DOES NOT WARRANT THAT: (A) XRCC WILL MEET YOUR REQUIREMENTS OR EXPECTATIONS; (B) XRCC WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, OR FREE FROM MALWARE; (C) ANY DEFECTS WILL BE CORRECTED; (D) AI OUTPUTS WILL BE ACCURATE, COMPLETE, NON-INFRINGING, OR SUITABLE FOR ANY PURPOSE; OR (E) ANY RESULTS OBTAINED FROM USE OF XRCC WILL BE ACCURATE, RELIABLE, OR APPROPRIATE FOR YOUR USE.</p></div><div style="display:contents" dir="auto"><p id="bde22d36-738c-464f-addb-3ce6839bbcfc" class="">10.4 <strong>AI Outputs.</strong> Without limiting the foregoing, you acknowledge that AI Features generate outputs probabilistically and that AI outputs are provided &quot;AS IS&quot; without any warranty whatsoever. See Section 5.3.</p></div><div style="display:contents" dir="auto"><p id="09383774-aad6-4376-8ec8-45050f6bf6d7" class="">10.5 <strong>Mandatory Local Law.</strong> Nothing in this Section 10 excludes, restricts, or modifies any warranty, condition, right, or remedy that, under applicable law, may not be excluded, restricted, or modified by contract. To the extent any such warranty or condition applies, VOTANIC&#x27;s liability for breach of it is, to the maximum extent permitted by applicable law, limited as set out in Section 11.</p></div><div style="display:contents" dir="auto"><hr id="1748e3a4-689e-4408-967c-85adddb7ca03"/></div><div style="display:contents" dir="auto"><h2 id="51640d76-34f4-48ae-be18-8bd310ec8f95" class="">11. Limitation of Liability</h2></div><div style="display:contents" dir="ltr"><figure class="callout" style="white-space:pre-wrap;display:flex" id="bcaf3e65-8525-40a3-b97c-4894b54a19d6"><div style="width:100%"><div style="display:contents" dir="auto"><p id="dc7d978b-fd1d-4493-9444-6f9e11a43668" class="">Our total liability to you is capped. For paid customers, the cap is the fees you paid in the prior 12 months. For Trial License users, the cap is HK$1,000. We are not liable for indirect or consequential damages. Certain claims (such as indemnity, fraud, and IP infringement) are carved out from the cap.</p></div></div></figure></div><div style="display:contents" dir="auto"><p id="e110abf6-322e-408e-b27d-459afedfade1" class="">11.1 <strong>Aggregate Cap.</strong></p></div><div style="display:contents" dir="auto"><p id="08ae3930-3bd2-4214-ac21-bb9d580900d5" class="">(a) <strong>Paid Tiers.</strong> For Licensees on an Annual Subscription or a Perpetual License, VOTANIC&#x27;s total aggregate liability arising out of or relating to this Agreement and to XRCC, whether in contract, tort (including negligence), strict liability, restitution, or under any other legal or equitable theory, shall not exceed the total fees actually paid by you to VOTANIC for XRCC in the twelve (12) months immediately preceding the event giving rise to the claim.</p></div><div style="display:contents" dir="auto"><p id="dc530fe3-fba8-4ad2-a6bb-c11e8278d554" class="">(b) <strong>Trial License and Unpaid Use.</strong> For Licensees on a Trial License, or otherwise using XRCC without payment of fees to VOTANIC, VOTANIC&#x27;s total aggregate liability arising out of or relating to this Agreement and to XRCC shall not exceed One Thousand Hong Kong Dollars (HK$1,000).</p></div><div style="display:contents" dir="auto"><p id="a4f1fde9-2677-43be-bef1-ef29844015bf" class="">11.2 <strong>Excluded Damages.</strong> To the maximum extent permitted by applicable law, in no event will VOTANIC be liable for any indirect, special, incidental, consequential, exemplary, or punitive damages, or for any loss of profits, revenue, business, contracts, data, goodwill, business opportunity, or anticipated savings, in each case however arising, even if VOTANIC has been advised of the possibility of such damages and even if a remedy fails of its essential purpose.</p></div><div style="display:contents" dir="auto"><p id="a2e40be2-ed81-46ff-947d-9de8e73377ba" class="">11.3 <strong>Carve-Outs.</strong> The limits and exclusions in Sections 11.1 and 11.2 do not apply to: (a) VOTANIC&#x27;s indemnification obligations under Section 12; (b) your indemnification obligations under Section 13; (c) your obligation to pay fees; (d) either party&#x27;s liability for fraud, willful misconduct, or gross negligence; (e) infringement or misappropriation of the other party&#x27;s intellectual property rights; or (f) any liability that cannot, under applicable law, be excluded or limited.</p></div><div style="display:contents" dir="auto"><p id="699e8981-7b9f-41a5-ae04-f0c6577dce0a" class="">11.4 <strong>Allocation of Risk.</strong> You acknowledge that the allocation of risk in this Agreement — including the limitations and exclusions in this Section 11 and the disclaimers in Section 10 — reflects the fees (or absence of fees) paid for XRCC and is an essential basis of the bargain between you and VOTANIC. VOTANIC would not provide XRCC on the terms set out in this Agreement without these limitations.</p></div><div style="display:contents" dir="auto"><hr id="f20688e7-2fb4-4aa0-98cb-b40602746a16"/></div><div style="display:contents" dir="auto"><h2 id="f860182c-ae42-4032-bad4-73bedc980d8f" class="">12. VOTANIC IP Indemnity</h2></div><div style="display:contents" dir="ltr"><figure class="callout" style="white-space:pre-wrap;display:flex" id="e8a5ef60-fae2-4781-a9d6-b43ac9c28c8c"><div style="width:100%"><div style="display:contents" dir="auto"><p id="991f423a-1111-4143-ae29-6a3f3143742b" class="">If a third party sues you claiming that XRCC infringes their IP, we will defend you and cover the costs, subject to standard exceptions and a cap. This protection is available only to paid customers — not Trial License users — and it excludes AI outputs and UGC.</p></div></div></figure></div><div style="display:contents" dir="auto"><p id="3c9c8bbc-18c4-44cd-8ce0-be160b030ec2" class="">12.1 <strong>Defense Obligation.</strong> Subject to Sections 12.2 and 12.3, VOTANIC will defend you against any third-party claim alleging that your authorized use of XRCC under an Annual Subscription or a Perpetual License, in unmodified form and in accordance with this Agreement, infringes a copyright, trademark, service mark, registered design, or trade secret enforceable in Hong Kong (an &quot;<strong>Infringement Claim</strong>&quot;), and will pay any final award of damages, costs, and court-approved settlement amounts attributable to the Infringement Claim.</p></div><div style="display:contents" dir="auto"><p id="39b412c8-0fee-49ec-b02c-57d36e1c97ab" class="">12.2 <strong>Exclusions.</strong> VOTANIC has no obligation under this Section 12 to the extent an Infringement Claim arises from or relates to: (a) any use of XRCC under a Trial License or otherwise without payment of fees to VOTANIC; (b) outputs of AI Features, including content generated by, with, or in response to AI Features (which are addressed in Section 5); (c) UGC, or any content, data, prompts, assets, or other material that you supply, import, or otherwise introduce into XRCC; (d) modifications to XRCC made by any person other than VOTANIC, or modifications made at your direction or request; (e) combination, operation, or use of XRCC with any software, hardware, services, data, or content not supplied or authorized in writing by VOTANIC, where the Infringement Claim would have been avoided absent such combination; (f) your use of XRCC outside the scope of the license granted under Section 3, in breach of this Agreement, or after VOTANIC has notified you to cease such use; (g) VOTANIC&#x27;s compliance with your specifications, requests, or instructions; or (h) any claim of patent infringement.</p></div><div style="display:contents" dir="auto"><p id="70476808-4fd3-433c-8ad4-f2858296455f" class="">12.3 <strong>Conditions.</strong> VOTANIC&#x27;s obligations under this Section 12 are conditional on you: (a) promptly notifying VOTANIC in writing of the Infringement Claim, and in any event within fifteen (15) days of becoming aware of it, with reasonable detail; (b) granting VOTANIC sole control of the defense and any settlement negotiations relating to the Infringement Claim; (c) providing VOTANIC with reasonable cooperation, information, and assistance, at VOTANIC&#x27;s expense for your reasonable out-of-pocket costs; and (d) not making any admission, settlement, or compromise of the Infringement Claim without VOTANIC&#x27;s prior written consent.</p></div><div style="display:contents" dir="auto"><p id="e0b35c1e-a99c-409f-9551-fd2b4f1a7990" class="">12.4 <strong>Mitigation.</strong> If XRCC is held, or VOTANIC reasonably believes it may be held, to infringe a third party&#x27;s intellectual property rights, VOTANIC may, at its option and expense: (a) procure for you the right to continue using XRCC; (b) modify or replace XRCC so that it is non-infringing while maintaining substantially equivalent functionality; or (c) terminate this Agreement (or the affected Licensed Tier) on written notice and refund to you a pro-rata portion of fees prepaid for the unused remainder of the then-current Subscription Term.</p></div><div style="display:contents" dir="auto"><p id="f2cddd5e-4563-4d8d-997d-130670c5a217" class="">12.5 <strong>Cap.</strong> VOTANIC&#x27;s total aggregate liability under this Section 12 is subject to the cap set out in Section 11.1(a).</p></div><div style="display:contents" dir="auto"><p id="614cf19e-990f-4a26-b360-f29413cee83c" class="">12.6 <strong>Sole and Exclusive Remedy.</strong> This Section 12 states VOTANIC&#x27;s sole and exclusive liability, and your sole and exclusive remedy, for any claim of intellectual property infringement, misappropriation, or violation arising out of or relating to XRCC.</p></div><div style="display:contents" dir="auto"><hr id="23a080ee-f325-4074-a11c-9263bcb4f480"/></div><div style="display:contents" dir="auto"><h2 id="502bfe03-1bbe-4ab1-b844-35c3e304a05b" class="">13. Customer Indemnity</h2></div><div style="display:contents" dir="ltr"><figure class="callout" style="white-space:pre-wrap;display:flex" id="e8c84f64-0b2e-4072-9e29-70ead330b56e"><div style="width:100%"><div style="display:contents" dir="auto"><p id="5b3fa2ea-2f1a-46c8-b1a7-38f2ded924b2" class="">If a third party brings a claim against us because of how you used XRCC or what you created with it, you will cover our legal costs and any damages awarded. This includes claims about your content, your AI prompts and outputs, audience members at experiences you run, and anything you did that broke this Agreement or the law.</p></div></div></figure></div><div style="display:contents" dir="auto"><p id="8983ab5d-9d8a-4ad5-a4ed-16e59930a0da" class="">13.1 <strong>Indemnification.</strong> You will indemnify, defend, and hold harmless VOTANIC and its affiliates, officers, directors, employees, contractors, and agents (each, a &quot;<strong>VOTANIC Indemnitee</strong>&quot;) from and against any third-party claim, demand, suit, investigation, or proceeding (each, a &quot;<strong>Claim</strong>&quot;), and any losses, damages, liabilities, settlements, judgments, fines, penalties, interest, costs, and expenses (including reasonable legal fees) (collectively, &quot;<strong>Losses</strong>&quot;) arising out of or relating to:</p></div><div style="display:contents" dir="auto"><p id="ad770daf-2714-41bb-be93-54221c9fd78c" class="">(a) <strong>UGC.</strong> Your UGC, including any allegation that your UGC infringes, misappropriates, or violates any third party&#x27;s intellectual property right, privacy right, publicity right, or other right;</p></div><div style="display:contents" dir="auto"><p id="d6baf530-d299-4109-81b7-735b87ed926c" class="">(b) <strong>AI inputs and outputs.</strong> Your prompts, inputs, configurations, and outputs generated by, with, or in response to AI Features, including any allegation that such inputs or outputs infringe, misappropriate, defame, harass, or otherwise violate the rights of any person;</p></div><div style="display:contents" dir="auto"><p id="91c1e709-3ffc-4eef-80b3-bbbcadaf960a" class="">(c) <strong>Acceptable Use violations.</strong> Your use of XRCC, AI Features, or UGC in violation of Section 5 (including any allegation that you generated, stored, transmitted, or distributed content prohibited under Section 5.4);</p></div><div style="display:contents" dir="auto"><p id="0dd651bb-3d2c-4fde-a47b-9c0445994e86" class="">(d) <strong>License Restriction violations.</strong> Your breach of Section 4 (including any allegation arising from reverse engineering, license-key misuse, watermark removal, or competing-product development);</p></div><div style="display:contents" dir="auto"><p id="8ed07b6c-dcde-4714-ae8e-6005afd53203" class="">(e) <strong>Audience Member claims.</strong> Any Claim brought by or on behalf of an Audience Member (Section 6.9) arising out of or relating to an experience you delivered using XRCC or UGC, including Claims for personal injury, motion sickness, photosensitive response, emotional distress, privacy or data-protection breach, lack of consent, or content unsuitability, except to the extent the Claim arises directly from an Infringement Claim covered by VOTANIC under Section 12;</p></div><div style="display:contents" dir="auto"><p id="ca94f9d4-1abd-402c-a682-dd8ee9c86532" class="">(f) <strong>Pass-through breach.</strong> Acts and omissions of any person to whom you provide access to XRCC (whether directly, through transferred project files, through Audience-Member experiences, or otherwise), to the extent such acts or omissions would breach this Agreement if performed by you;</p></div><div style="display:contents" dir="auto"><p id="eec0e11a-a17c-4779-8b77-3fd26852225d" class="">(g) <strong>Tax and regulatory claims.</strong> Any Claim that you failed to comply with applicable tax or data-protection laws in connection with your use of XRCC or UGC; and</p></div><div style="display:contents" dir="auto"><p id="144ea623-cb90-4d56-b056-217ab78f3d1b" class="">(h) <strong>Misrepresentation.</strong> Any breach of your representations and warranties under this Agreement, including under Sections 2.4 (Acceptance on Behalf of an Organization), 6.5 (Your Responsibility for UGC), and 6.8 (Submission Hygiene).</p></div><div style="display:contents" dir="auto"><p id="f91f1079-f5ac-47a4-89b4-a26d045271f1" class="">13.2 <strong>Procedure.</strong> VOTANIC will: (a) promptly notify you in writing of the Claim (provided that failure to provide prompt notice will relieve you of your obligations only to the extent you are materially prejudiced); (b) grant you, at your written request and expense, sole control of the defense and settlement of the Claim, subject to VOTANIC&#x27;s right to participate in the defense at its own expense and with counsel of its choice; and (c) provide reasonable cooperation in the defense at your expense for VOTANIC&#x27;s reasonable out-of-pocket costs. You must not settle or compromise any Claim in a manner that imposes any obligation, admission of fault, or liability on a VOTANIC Indemnitee, or that materially affects a VOTANIC Indemnitee&#x27;s rights, without VOTANIC&#x27;s prior written consent.</p></div><div style="display:contents" dir="auto"><p id="d5c92ed5-ad09-489e-9862-6252cb70e2c4" class="">13.3 <strong>No Limit by Section 11.</strong> Your obligations under this Section 13 are not subject to the aggregate cap in Section 11.1 (see Section 11.3(b)).</p></div><div style="display:contents" dir="auto"><hr id="b4f3cc96-51f9-40be-846f-36d6f69d0d28"/></div><div style="display:contents" dir="auto"><h2 id="844920be-038d-4e16-a7b4-fa4bd925ad73" class="">14. Updates to XRCC</h2></div><div style="display:contents" dir="auto"><p id="a81e2eb4-5723-4a3a-9499-8939f869cda1" class="">14.1 <strong>Right to Update.</strong> VOTANIC may, from time to time and in its sole discretion, develop and release updates, patches, upgrades, new versions, bug fixes, security fixes, and feature changes to XRCC (collectively, &quot;<strong>Updates</strong>&quot;). Updates are governed by this Agreement unless accompanied by separate terms applicable to the Update.</p></div><div style="display:contents" dir="auto"><p id="f5200498-c71f-4e07-835e-f43f96a564ab" class="">14.2 <strong>Mandatory Updates.</strong> Some Updates may be required for continued use of XRCC, including Updates required to maintain security, interoperability with online services, or compliance with applicable law. VOTANIC may, at its discretion, decline to support older versions of XRCC and may condition continued use on installation of an Update. If you do not install a required Update, some or all functionality of XRCC may become unavailable to you.</p></div><div style="display:contents" dir="auto"><p id="bc620227-ff13-4e50-9963-f87f68dba5d3" class="">14.3 <strong>Discontinuance and Changes to Features.</strong> VOTANIC may, at its discretion: (a) change, add to, suspend, or discontinue any feature, AI Feature, third-party integration, online service, or other component of XRCC; and (b) for paid features that are materially discontinued during a then-current Subscription Term, refund a pro-rata portion of the prepaid fees for the unused remainder of that Subscription Term, which will be your sole remedy for such discontinuance.</p></div><div style="display:contents" dir="auto"><p id="dac1557d-f00b-42be-97cb-ab7c572577b7" class="">14.4 <strong>No Obligation to Develop.</strong> Nothing in this Agreement obliges VOTANIC to release any Update or to develop, support, or maintain any specific feature, AI Feature, third-party integration, or platform compatibility.</p></div><div style="display:contents" dir="auto"><hr id="187610a3-8ba6-4f92-a71c-40481941f772"/></div><div style="display:contents" dir="auto"><h2 id="d0ee3b61-cf59-453c-bb62-28cc9c4d38e3" class="">15. Changes to this Agreement</h2></div><div style="display:contents" dir="ltr"><figure class="callout" style="white-space:pre-wrap;display:flex" id="eddd6752-0a99-4403-8cd7-53e59c7301be"><div style="width:100%"><div style="display:contents" dir="auto"><p id="6c14640b-0824-4098-8651-262cf7c0024e" class="">We may update this Agreement from time to time. When we do, the next time you launch XRCC you will be asked to accept the new version. If you are a paid customer and a material change is adverse to you, you can terminate and get a pro-rata refund instead of accepting.</p></div></div></figure></div><div style="display:contents" dir="auto"><p id="b22a34d8-277f-4fe5-a088-a56deb9c2b9f" class="">15.1 <strong>Right to Change.</strong> VOTANIC may, from time to time, modify this Agreement, including in response to new features, legal or regulatory requirements, business changes, or operational needs.</p></div><div style="display:contents" dir="auto"><p id="0f73bf41-536c-4221-9545-13272e778272" class="">15.2 <strong>Notice and Effect.</strong></p></div><div style="display:contents" dir="auto"><p id="bfe480d5-bf83-468e-9c10-ab09ece53a93" class="">(a) <strong>Notice and Effective Time.</strong> VOTANIC will make any modified version of this Agreement available before it takes effect by presenting it to you for acceptance on next launch of XRCC under Section 2.2. The modified version takes effect, as between you and VOTANIC, on your acceptance under Section 2.2.</p></div><div style="display:contents" dir="auto"><p id="0f58990b-c718-48ba-8269-821a8b7c3d11" class="">(b) <strong>Right to Terminate on Material Change for Paid Tiers.</strong> If a material change to this Agreement is adverse to you and you are a Licensee on an Annual Subscription or a Perpetual License, you may, instead of accepting the change, terminate this Agreement and your then-current license by declining to re-accept the modified Agreement on next launch, or by notifying VOTANIC in writing before the change takes effect. On such termination, VOTANIC will refund a pro-rata portion of any prepaid fees for the unused remainder of the then-current Subscription Term (in the case of an Annual Subscription) or any prepaid maintenance or update fees (in the case of a Perpetual License). This is your sole and exclusive remedy for a material change to this Agreement.</p></div><div style="display:contents" dir="auto"><p id="2b7ad8e6-cc84-4d82-a243-7530e64b06ac" class="">15.3 <strong>Non-Material Changes.</strong> Non-material changes (including clarifications, typographical corrections, references, and changes that do not adversely affect your rights or obligations) may take effect immediately on posting, without prior notice.</p></div><div style="display:contents" dir="auto"><p id="e04fe2d1-2e6a-461d-aec5-a92911977396" class="">15.4 <strong>Acceptance of New Version on Upgrade.</strong> Where you install or first launch a new version of XRCC after the effective date of a revised Agreement, VOTANIC may require you to re-accept this Agreement (see Section 2.2). If you do not re-accept, you must not continue to use the new version of XRCC.</p></div><div style="display:contents" dir="auto"><hr id="208bbef3-9afb-4655-bcc2-4f02f34d09c2"/></div><div style="display:contents" dir="auto"><h2 id="9d0bbae8-a809-4422-a601-98639711ead5" class="">16. Term and Termination</h2></div><div style="display:contents" dir="auto"><p id="6110c33a-f249-456b-a4fe-a1557f7ac008" class="">16.1 <strong>Term.</strong> This Agreement takes effect on the Effective Date and remains in effect: (a) for a Trial License, until the trial period expires or is terminated; (b) for an Annual Subscription, until the end of the Subscription Term, unless renewed by a new or extending Order Form; and (c) for a Perpetual License, until terminated in accordance with this Section 16.</p></div><div style="display:contents" dir="auto"><p id="611154ae-9159-48e6-8927-53b3d7523950" class="">16.2 <strong>Termination by You.</strong> You may terminate this Agreement at any time by ceasing all use of XRCC and uninstalling all copies of XRCC. Termination by you does not entitle you to any refund except as expressly provided in Sections 12.4, 14.3(b), or 15.2(b).</p></div><div style="display:contents" dir="auto"><p id="97cc605a-adee-4ff5-a0f5-30b40ded414b" class="">16.3 <strong>Termination by VOTANIC.</strong> VOTANIC may terminate this Agreement or any Licensed Tier, in whole or in part:</p></div><div style="display:contents" dir="auto"><p id="4177e223-e6d8-4ab5-81cb-4d6748ed6601" class="">(a) <strong>Material breach.</strong> If you materially breach this Agreement and, where the breach is capable of cure, fail to cure the breach within thirty (30) days after written notice from VOTANIC, provided that breaches of Section 4, 5, 6.3(c), 6.5, or 8.2 are not subject to a cure period;</p></div><div style="display:contents" dir="auto"><p id="9f26f9db-791b-4cc8-986d-e3015809d0a2" class="">(b) <strong>Insolvency.</strong> Immediately, if you become insolvent, make an assignment for the benefit of creditors, file or have filed against you a petition under any bankruptcy or insolvency law that is not dismissed within sixty (60) days, or cease to do business; or</p></div><div style="display:contents" dir="auto"><p id="7b6cba6b-fa9f-4e7a-993b-289d833169d2" class="">(c) <strong>Discontinuance.</strong> On not less than ninety (90) days&#x27; written notice to you, if VOTANIC discontinues XRCC generally, in which case VOTANIC will refund a pro-rata portion of the prepaid fees for the unused remainder of the then-current Subscription Term (in the case of an Annual Subscription).</p></div><div style="display:contents" dir="auto"><p id="23c8bc3e-5a0c-4886-9b13-bd4405dadb95" class="">16.4 <strong>Effect of Termination.</strong> On any termination or expiration of this Agreement: (a) all licenses granted to you under this Agreement terminate immediately; (b) you must cease all use of XRCC and uninstall and destroy all copies of XRCC in your possession or control; (c) VOTANIC may, but is not required to, disable license keys, deactivate accounts, and revoke access to online services; and (d) any fees paid to VOTANIC prior to termination are non-refundable, except as expressly provided in this Agreement.</p></div><div style="display:contents" dir="auto"><p id="9caebc56-9f38-4d07-a498-d794a5730770" class="">16.5 <strong>Survival.</strong> The following Sections survive termination or expiration of this Agreement: 1 (Definitions); 6 (User-Generated Content), in respect of UGC, Support Submissions, and Audience-Member experiences existing or occurring before termination, and the licenses to VOTANIC granted under Sections 6.4 and 6.7 prior to termination; 7 (Data Collection and Privacy), in respect of data processed before termination; 8 (Feedback); 9 (Intellectual Property); 10 (Warranty Disclaimer); 11 (Limitation of Liability); 12 (VOTANIC IP Indemnity), in respect of Infringement Claims accrued before termination; 13 (Customer Indemnity); 16.4 (Effect of Termination); 16.5 (Survival); 19 (Governing Law and Dispute Resolution); 20 (General); and any other provision that by its nature or its express terms is intended to survive.</p></div><div style="display:contents" dir="auto"><hr id="ee215a8a-fbe1-47a0-a1ea-4cd1508b12d8"/></div><div style="display:contents" dir="auto"><h2 id="6faa6c97-de3c-468b-8ea1-94bf62c702be" class="">17. Open Source Components</h2></div><div style="display:contents" dir="auto"><p id="5b12409c-8a58-4423-ae71-8753a7404a90" class="">17.1 <strong>Open Source Notices.</strong> XRCC may include open source software components, each of which is licensed under the terms of its own open source license. A list of such components and their respective licenses, together with applicable notices and attributions (&quot;<strong>Open Source Notices</strong>&quot;), is made available with XRCC at a location identified by VOTANIC (which may be a file accompanying the XRCC installation, a page in the XRCC launcher, or a URL provided by VOTANIC). The list of components and applicable terms may be updated from time to time to reflect changes in XRCC.</p></div><div style="display:contents" dir="auto"><p id="6c792724-c6a2-473e-a1c8-b3d1839ec48f" class="">17.2 <strong>Precedence.</strong> To the extent the terms of an open source license applicable to a component conflict with this Agreement with respect to that component, the open source license terms prevail with respect to that component only, and this Agreement continues to apply to the remainder of XRCC.</p></div><div style="display:contents" dir="auto"><p id="bfb54851-9327-4b65-aa76-17b6bd78ac1a" class="">17.3 <strong>No Waiver.</strong> Nothing in this Agreement is intended to limit your rights under, or grant you fewer rights than, an applicable open source license; nor is it intended to extend obligations applicable to an open source component to the remainder of XRCC.</p></div><div style="display:contents" dir="auto"><hr id="e145d017-518a-41e8-a5ac-74a90f1688b0"/></div><div style="display:contents" dir="auto"><h2 id="22f57f4b-d66a-496a-9e2c-6ef657e6b08e" class="">18. Compliance with Laws</h2></div><div style="display:contents" dir="auto"><p id="b9ffd18d-090c-4afa-87c9-132a7714831a" class="">18.1 You will comply with all laws applicable to your use of XRCC, including data-protection, consumer-protection, and any applicable trade-restriction or sanctions laws.</p></div><div style="display:contents" dir="auto"><hr id="de959fa0-a4d9-41ae-aab7-0d93fe075cc3"/></div><div style="display:contents" dir="auto"><h2 id="3c871d67-9965-4d5b-bb63-c96f53e22933" class="">19. Governing Law and Dispute Resolution</h2></div><div style="display:contents" dir="ltr"><figure class="callout" style="white-space:pre-wrap;display:flex" id="258b521d-fd3c-4070-8d49-b15a00c1f574"><div style="width:100%"><div style="display:contents" dir="auto"><p id="0397a76b-e39f-4daf-b77d-b7e655cf17ea" class="">This Agreement is governed by Hong Kong law. Disputes are resolved by confidential arbitration in Hong Kong, in English, under HKIAC rules. We can still go to court for emergencies like an injunction to stop misuse of XRCC.</p></div></div></figure></div><div style="display:contents" dir="auto"><p id="58568c1c-fa82-4062-8702-1218989e1cb7" class="">19.1 <strong>Governing Law.</strong> This Agreement, and any non-contractual obligation arising out of or in connection with it, are governed by and construed in accordance with the laws of the Hong Kong Special Administrative Region, without regard to its conflict-of-laws principles.</p></div><div style="display:contents" dir="auto"><p id="ff4104ce-ae60-42dc-872f-c63cf2837d7b" class="">19.2 <strong>Arbitration.</strong> Any dispute, controversy, difference, or claim arising out of or relating to this Agreement, including its existence, validity, interpretation, performance, breach, or termination, or any non-contractual obligation arising out of or in connection with it (a &quot;<strong>Dispute</strong>&quot;), shall be referred to and finally resolved by arbitration administered by the Hong Kong International Arbitration Centre (&quot;<strong>HKIAC</strong>&quot;) under the HKIAC Administered Arbitration Rules in force at the time the notice of arbitration is submitted.</p></div><div style="display:contents" dir="auto"><p id="867ad205-d0b7-4d79-878f-588ca9710602" class="">19.3 <strong>Seat, Language, and Tribunal.</strong> The seat of arbitration is Hong Kong. The language of the arbitration is English. The number of arbitrators is one (1), unless the parties agree otherwise in writing.</p></div><div style="display:contents" dir="auto"><p id="5cedbb47-1939-41ca-bdff-af2a6ed8470b" class="">19.4 <strong>Confidentiality.</strong> The arbitration proceedings, the existence and content of any award, and all materials produced or exchanged in connection with the arbitration are confidential, except where disclosure is required by applicable law, by a competent regulatory authority, or to enforce or challenge an award.</p></div><div style="display:contents" dir="auto"><p id="fe277217-7259-45d7-b877-d2d092e1b96f" class="">19.5 <strong>Injunctive Relief.</strong> Notwithstanding Section 19.2, either party may seek interim, conservatory, or injunctive relief from any court of competent jurisdiction in connection with a Dispute, including to protect intellectual property, confidential information, or to enforce restrictions in Sections 4, 5, 6.3, or 8.2. Such application does not constitute a waiver of the parties&#x27; agreement to arbitrate.</p></div><div style="display:contents" dir="auto"><p id="948e9628-2366-48d8-b8f6-fa1cb800d568" class="">19.6 <strong>No Class Actions.</strong> To the maximum extent permitted by applicable law, Disputes will be resolved on an individual basis only. The parties waive any right to participate in a class, collective, representative, or consolidated proceeding, except where the parties agree otherwise in writing.</p></div><div style="display:contents" dir="auto"><hr id="0f646700-1499-4394-b69f-817b411d0fcf"/></div><div style="display:contents" dir="auto"><h2 id="881c4c12-1d8a-41eb-bc1e-392e42418512" class="">20. General</h2></div><div style="display:contents" dir="auto"><p id="0c3ff116-44eb-4a76-aaf6-14ebbabd41dd" class="">20.1 <strong>Entire Agreement.</strong> This Agreement (together with any Order Form, supplemental terms, addendum, and Open Source Notices referenced in this Agreement) constitutes the entire agreement between you and VOTANIC regarding XRCC and supersedes all prior or contemporaneous communications, proposals, agreements, and understandings, whether oral or written, on that subject. Where an Order Form between you and VOTANIC contains terms that expressly modify this Agreement, those modifications prevail over this Agreement solely for that Order Form.</p></div><div style="display:contents" dir="auto"><p id="a107316d-a41b-4f0b-9ba9-e9208fa21245" class="">20.2 <strong>Order of Precedence.</strong> In the event of a conflict between this Agreement and an applicable Order Form, the Order Form prevails with respect to the subject matter of that conflict only and only to the extent it expressly modifies the relevant term. In the event of a conflict between this Agreement and any open source license or Third-Party Material terms, see Sections 9.3 and 17.2.</p></div><div style="display:contents" dir="auto"><p id="4cb3eab3-4827-4c1c-be9c-4321ee8af5e5" class="">20.3 <strong>Force Majeure.</strong> Neither party is liable for any delay or failure to perform (other than your obligation to pay fees) to the extent caused by an event beyond its reasonable control, including acts of God, natural disaster, epidemic, pandemic, civil unrest, war, terrorism, government action, embargo, internet or telecommunications failure, denial-of-service attack, or labour dispute. The affected party must use reasonable efforts to resume performance.</p></div><div style="display:contents" dir="auto"><p id="9033bd69-2a42-4e25-8eb4-af4985f994a6" class="">20.4 <strong>Notices.</strong> VOTANIC may give notices to you under this Agreement by email to the address associated with your account, license key, or Order Form, by in-product notice on next launch of XRCC, by posting on VOTANIC&#x27;s website, or by any other reasonable means. You must give notices to VOTANIC by email to <a href="mailto:enquiry@votanic.com">enquiry@votanic.com</a>, with a copy by post to VOTANIC Limited&#x27;s registered office in Hong Kong. Notices take effect on receipt (or, in the case of in-product or posted notice, on first display).</p></div><div style="display:contents" dir="auto"><p id="64a17aa8-2372-4807-a7c6-1d59a7f6a744" class="">20.5 <strong>Assignment.</strong> You may not assign, transfer, sublicense, delegate, or otherwise dispose of this Agreement (or any right or obligation under it), in whole or in part, whether by operation of law or otherwise, without VOTANIC&#x27;s prior written consent. Any purported assignment in breach of this Section is void. A change of control (whether by merger, acquisition, sale of all or substantially all assets, or otherwise) is deemed an assignment. VOTANIC may assign or transfer this Agreement (and any right or obligation under it) freely, including to an affiliate or in connection with a merger, reorganization, or sale of all or substantially all of its assets.</p></div><div style="display:contents" dir="auto"><p id="626bd92f-8eb2-4d3d-a0f1-3fdb74406726" class="">20.6 <strong>Severability.</strong> If any provision of this Agreement is held to be invalid, illegal, or unenforceable in any respect under any applicable law, that provision is, to the extent of such invalidity, illegality, or unenforceability, severed from this Agreement, and the remaining provisions continue in full force and effect.</p></div><div style="display:contents" dir="auto"><p id="91d0aa6d-547f-4e4b-8649-3faddc9d1761" class="">20.7 <strong>Waiver.</strong> A failure or delay by a party to enforce any provision of this Agreement is not a waiver of that provision. A waiver of any provision must be in writing and signed by the waiving party. A waiver on one occasion is not a waiver of any subsequent or other breach.</p></div><div style="display:contents" dir="auto"><p id="debedbc6-7d39-4e9e-9010-56f5100046b8" class="">20.8 <strong>No Agency or Partnership.</strong> Nothing in this Agreement creates a partnership, joint venture, agency, fiduciary, or employment relationship between you and VOTANIC. Neither party has authority to bind the other.</p></div><div style="display:contents" dir="auto"><p id="acc631e5-77ac-4472-962e-c330ccfb15f8" class="">20.9 <strong>Third-Party Beneficiaries.</strong> Except for VOTANIC&#x27;s affiliates, officers, directors, employees, contractors, and agents (each of whom may enforce Section 13 directly as a VOTANIC Indemnitee), a person who is not a party to this Agreement has no right under the Contracts (Rights of Third Parties) Ordinance (Cap. 623) or under any other applicable law to enforce or enjoy the benefit of any term of this Agreement.</p></div><div style="display:contents" dir="auto"><p id="710911eb-1ce5-46fe-9005-ed6391507b68" class="">20.10 <strong>English Controlling.</strong> This Agreement is made and executed in the English language. Any translation of this Agreement is provided for convenience only. In the event of any conflict or inconsistency between the English version and any translation, the English version prevails.</p></div><div style="display:contents" dir="auto"><p id="cb78edd9-b562-4deb-bd27-0d4858c02fd2" class="">20.11 <strong>Headings; Construction.</strong> Section and subsection headings are for convenience only and do not affect interpretation. The rules of construction in Section 1.2 apply.</p></div><div style="display:contents" dir="auto"><p id="796bee5b-8dbe-4312-b1c4-99ec18563656" class="">20.12 <strong>Counterparts; Electronic Acceptance.</strong> This Agreement may be accepted by click-through, electronic signature, or other electronic means. Each such acceptance constitutes an original.</p></div><div style="display:contents" dir="auto"><hr id="1be90497-b0b6-48aa-b1b8-8f2bd906810b"/></div><div style="display:contents" dir="auto"><h2 id="50424564-1d9d-4298-bd74-9d66bc574e48" class="">21. Transition</h2></div><div style="display:contents" dir="auto"><p id="0502d7d3-8892-4148-9f0d-9969edeb7246" class="">21.1 <strong>Supersession.</strong> This Agreement (Version 2.0) supersedes all prior versions of the XRCC End User License Agreement, including the version of the XRCC End User License Agreement dated 11 September 2025 (the &quot;<strong>Prior EULA</strong>&quot;).</p></div><div style="display:contents" dir="auto"><p id="1df41fce-04b5-4ed7-8ae9-4be59e02d2b4" class="">21.2 <strong>Re-Acceptance on Upgrade.</strong> Where you had previously accepted the Prior EULA (or any earlier version of the XRCC End User License Agreement) and you install, launch, or use XRCC on or after the Effective Date of this Agreement, VOTANIC will present this Agreement to you for acceptance through the XRCC launcher, installer, or XRCC software on next install or launch. You must accept this Agreement to continue using XRCC.</p></div><div style="display:contents" dir="auto"><p id="48cca490-eb49-4c3a-be34-e59445dd6cc0" class="">21.3 <strong>Effect on Existing Licenses.</strong> Re-acceptance of this Agreement does not, by itself, affect the term, seat count, fee, or scope of any license previously issued to you under the Prior EULA. Your existing Annual Subscription Term, Perpetual License, or Trial License period (as applicable) continues according to its existing Order Form (if any), and is governed from the Effective Date of this Agreement by the terms of this Agreement.</p></div><div style="display:contents" dir="auto"><p id="58e5e250-48ca-4321-979b-41003de03468" class="">21.4 <strong>Declining Users.</strong> If you do not accept this Agreement: (a) you must not continue to use any version of XRCC released on or after the Effective Date of this Agreement; (b) VOTANIC may, at its sole discretion, continue to make available a prior version of XRCC to you under the Prior EULA for a reasonable transition period, but is not obliged to do so; and (c) refunds for unused prepaid fees, if any, will be handled in accordance with Section 15.2(b) (treating non-acceptance as termination on the basis of a material change).</p></div><div style="display:contents" dir="auto"><p id="b175aea0-0edb-4377-bbd4-8a2991301d95" class="">21.5 <strong>Acceptance Records.</strong> VOTANIC&#x27;s records of acceptance and version (see Section 2.5) are evidence of which version of the XRCC End User License Agreement applies to you at any given time.</p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
