@@ -16,7 +16,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>1. Definitions</color></b></size>
+<size=19><b>1. Definitions</b></size>
 
 <size=12><color=#9E9E9E><i>This section defines the key terms used throughout this Agreement.</i></color></size>
 
@@ -64,7 +64,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>2. Acceptance and Eligibility</color></b></size>
+<size=19><b>2. Acceptance and Eligibility</b></size>
 
 <size=12><color=#9E9E9E><i>Before you can use XRCC, you must accept this Agreement. You must be old enough and have the authority to do so. If you are using XRCC for an organization (a school, employer, or partner), you confirm you have authority to bind that organization.</i></color></size>
 
@@ -94,7 +94,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>3. Grant of License</color></b></size>
+<size=19><b>3. Grant of License</b></size>
 
 <size=12><color=#9E9E9E><i>We grant you a license to use XRCC according to your tier — Trial License, Annual Subscription, or Perpetual License. Using XRCC to deliver paid experiences or services to people outside your organization ("Commercial Use") is not included; it requires either a separate written commercial license or an Authorized Partner agreement with us. Internal use by your own organization — even if you are a for-profit enterprise — is not Commercial Use and is permitted under the standard tiers.</i></color></size>
 
@@ -122,7 +122,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>4. License Restrictions</color></b></size>
+<size=19><b>4. License Restrictions</b></size>
 
 <size=12><color=#9E9E9E><i>There are things you cannot do with XRCC. You cannot reverse-engineer it, share license keys, remove the watermark, or use XRCC to build a competing product. Full list below.</i></color></size>
 
@@ -160,7 +160,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>5. AI Features and Acceptable Use</color></b></size>
+<size=19><b>5. AI Features and Acceptable Use</b></size>
 
 <size=12><color=#9E9E9E><i>You can use the AI Features in XRCC, but you are responsible for what you create with them. You bring your own AI provider account — we do not host AI inference for you. And there are things you absolutely cannot create with XRCC, set out in the prohibited use list below.</i></color></size>
 
@@ -198,7 +198,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>6. User-Generated Content</color></b></size>
+<size=19><b>6. User-Generated Content</b></size>
 
 <size=12><color=#9E9E9E><i>You own what you create with XRCC. We do not claim any rights to your work. If you choose to share your creations with us, that is handled through a separate written agreement with our sales team — this Agreement gives us no rights over your UGC by default.</i></color></size>
 
@@ -244,7 +244,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>7. Data Collection and Privacy</color></b></size>
+<size=19><b>7. Data Collection and Privacy</b></size>
 
 <size=12><color=#9E9E9E><i>We collect a small amount of data to keep XRCC running smoothly and to fix bugs. Crash reports are always on. Usage analytics are on by default but you can turn them off. If you use AI Features, you connect to your own AI provider directly — your prompts and AI responses do not go to our servers. XRCC may cache prompts and responses locally on your device because some XRCC features need to pass that data between components; the cache stays on your device. We will never use your projects or prompts to train AI models without your express opt-in. Full details below.</i></color></size>
 
@@ -278,7 +278,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>8. Feedback</color></b></size>
+<size=19><b>8. Feedback</b></size>
 
 <size=14><size=15><b>8.1 Feedback License.</b></size> If you provide VOTANIC with any suggestion, comment, idea, request, recommendation, or other feedback regarding XRCC, AI Features, or VOTANIC's services (collectively, "<b>Feedback</b>"), you grant VOTANIC a non-exclusive, perpetual, irrevocable, royalty-free, worldwide, fully paid-up, sublicensable, and transferable license to use, reproduce, modify, distribute, prepare derivative works of, display, perform, and otherwise exploit such Feedback for any purpose, without obligation or compensation to you. VOTANIC is not required to use Feedback and may use Feedback without attribution.</size>
 
@@ -288,7 +288,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>9. Intellectual Property</color></b></size>
+<size=19><b>9. Intellectual Property</b></size>
 
 <size=14><size=15><b>9.1 VOTANIC Ownership.</b></size> As between you and VOTANIC, VOTANIC and its licensors own all right, title, and interest in and to XRCC, including all VOTANIC Intellectual Property, Content, AI Features (other than third-party AI services accessed via Bring-Your-Own AI), and any modifications, derivative works, or improvements thereto, regardless of who creates them, subject only to your rights in your UGC under Section 6. All rights not expressly granted to you in this Agreement are reserved by VOTANIC.</size>
 
@@ -302,7 +302,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>10. Warranty Disclaimer</color></b></size>
+<size=19><b>10. Warranty Disclaimer</b></size>
 
 <size=12><color=#9E9E9E><i>XRCC is provided "as is". We make no promises about its performance, suitability, or fit for any particular purpose. Some warranties cannot legally be excluded — those still apply to you.</i></color></size>
 
@@ -320,7 +320,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>11. Limitation of Liability</color></b></size>
+<size=19><b>11. Limitation of Liability</b></size>
 
 <size=12><color=#9E9E9E><i>Our total liability to you is capped. For paid customers, the cap is the fees you paid in the prior 12 months. For Trial License users, the cap is HK$1,000. We are not liable for indirect or consequential damages. Certain claims (such as indemnity, fraud, and IP infringement) are carved out from the cap.</i></color></size>
 
@@ -340,7 +340,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>12. VOTANIC IP Indemnity</color></b></size>
+<size=19><b>12. VOTANIC IP Indemnity</b></size>
 
 <size=12><color=#9E9E9E><i>If a third party sues you claiming that XRCC infringes their IP, we will defend you and cover the costs, subject to standard exceptions and a cap. This protection is available only to paid customers — not Trial License users — and it excludes AI outputs and UGC.</i></color></size>
 
@@ -360,7 +360,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>13. Customer Indemnity</color></b></size>
+<size=19><b>13. Customer Indemnity</b></size>
 
 <size=12><color=#9E9E9E><i>If a third party brings a claim against us because of how you used XRCC or what you created with it, you will cover our legal costs and any damages awarded. This includes claims about your content, your AI prompts and outputs, audience members at experiences you run, and anything you did that broke this Agreement or the law.</i></color></size>
 
@@ -390,7 +390,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>14. Updates to XRCC</color></b></size>
+<size=19><b>14. Updates to XRCC</b></size>
 
 <size=14><size=15><b>14.1 Right to Update.</b></size> VOTANIC may, from time to time and in its sole discretion, develop and release updates, patches, upgrades, new versions, bug fixes, security fixes, and feature changes to XRCC (collectively, "<b>Updates</b>"). Updates are governed by this Agreement unless accompanied by separate terms applicable to the Update.</size>
 
@@ -404,7 +404,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>15. Changes to this Agreement</color></b></size>
+<size=19><b>15. Changes to this Agreement</b></size>
 
 <size=12><color=#9E9E9E><i>We may update this Agreement from time to time. When we do, the next time you launch XRCC you will be asked to accept the new version. If you are a paid customer and a material change is adverse to you, you can terminate and get a pro-rata refund instead of accepting.</i></color></size>
 
@@ -424,7 +424,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>16. Term and Termination</color></b></size>
+<size=19><b>16. Term and Termination</b></size>
 
 <size=14><size=15><b>16.1 Term.</b></size> This Agreement takes effect on the Effective Date and remains in effect: (a) for a Trial License, until the trial period expires or is terminated; (b) for an Annual Subscription, until the end of the Subscription Term, unless renewed by a new or extending Order Form; and (c) for a Perpetual License, until terminated in accordance with this Section 16.</size>
 
@@ -446,7 +446,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>17. Open Source Components</color></b></size>
+<size=19><b>17. Open Source Components</b></size>
 
 <size=14><size=15><b>17.1 Open Source Notices.</b></size> XRCC may include open source software components, each of which is licensed under the terms of its own open source license. A list of such components and their respective licenses, together with applicable notices and attributions ("<b>Open Source Notices</b>"), is made available with XRCC at a location identified by VOTANIC (which may be a file accompanying the XRCC installation, a page in the XRCC launcher, or a URL provided by VOTANIC). The list of components and applicable terms may be updated from time to time to reflect changes in XRCC.</size>
 
@@ -458,7 +458,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>18. Compliance with Laws</color></b></size>
+<size=19><b>18. Compliance with Laws</b></size>
 
 <size=14>18.1 You will comply with all laws applicable to your use of XRCC, including data-protection, consumer-protection, and any applicable trade-restriction or sanctions laws.</size>
 
@@ -466,7 +466,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>19. Governing Law and Dispute Resolution</color></b></size>
+<size=19><b>19. Governing Law and Dispute Resolution</b></size>
 
 <size=12><color=#9E9E9E><i>This Agreement is governed by Hong Kong law. Disputes are resolved by confidential arbitration in Hong Kong, in English, under HKIAC rules. We can still go to court for emergencies like an injunction to stop misuse of XRCC.</i></color></size>
 
@@ -486,7 +486,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>20. General</color></b></size>
+<size=19><b>20. General</b></size>
 
 <size=14><size=15><b>20.1 Entire Agreement.</b></size> This Agreement (together with any Order Form, supplemental terms, addendum, and Open Source Notices referenced in this Agreement) constitutes the entire agreement between you and VOTANIC regarding XRCC and supersedes all prior or contemporaneous communications, proposals, agreements, and understandings, whether oral or written, on that subject. Where an Order Form between you and VOTANIC contains terms that expressly modify this Agreement, those modifications prevail over this Agreement solely for that Order Form.</size>
 
@@ -516,7 +516,7 @@
 </size><color=#424242>────────────────────────────────────────</color><size=6>
 </size>
 
-<size=19><b><color=#00BCD4>21. Transition</color></b></size>
+<size=19><b>21. Transition</b></size>
 
 <size=14><size=15><b>21.1 Supersession.</b></size> This Agreement (Version 2.0) supersedes all prior versions of the XRCC End User License Agreement, including the version of the XRCC End User License Agreement dated 11 September 2025 (the "<b>Prior EULA</b>").</size>
 
