@@ -4,28 +4,30 @@
       "aiTask": 0,
       "availableModels": [
         "gpt-image-1.5",
-        "qwen-image"
+        "gpt-image-2",
+        "qwen-image",
+        "flux-2-pro"
       ]
     },
     {
       "aiTask": 1,
       "availableModels": [
-        "gpt-image-1.5",
-        "qwen-image"
+        "remove-background"
       ]
     },
     {
       "aiTask": 2,
       "availableModels": [
         "gpt-image-1.5",
-        "qwen-image"
+        "gpt-image-2",
+        "flux-2-pro"
       ]
     },
     {
       "aiTask": 3,
       "availableModels": [
         "gpt-image-1.5",
-        "qwen-image"
+        "gpt-image-2"
       ]
     },
     {
@@ -37,7 +39,8 @@
     {
       "aiTask": 5,
       "availableModels": [
-        "hailuo-music-v1.5"
+        "hailuo-music-v1.5",
+        "lyria-3"
       ]
     },
     {

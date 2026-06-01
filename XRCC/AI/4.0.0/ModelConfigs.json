@@ -3,6 +3,7 @@
   "modelConfigs": [
     {
       "modelType": 1,
+      "displayName": "GPT-Image-1.5",
       "name": "gpt-image-1.5",
       "visibleParameters": [
         {
@@ -53,6 +54,59 @@
     },
     {
       "modelType": 1,
+      "displayName": "GPT-Image-2",
+      "name": "gpt-image-2",
+      "visibleParameters": [
+        {
+          "identifier": {
+            "englishIdentifier": "Aspect Ratio",
+            "traditionalChineseIdentifier": "比例",
+            "simplifiedChineseIdentifier": "比例"
+          },
+          "name": "size",
+          "inputMethod": 0,
+          "characterValidation": 0,
+          "options": [
+            "auto",
+            "1024x1024",
+            "1536x1024",
+            "1024x1536"
+          ]
+        }
+      ],
+      "hiddenParameters": [
+        {
+          "name": "quality",
+          "option": "low"
+        },
+        {
+          "name": "use_mask",
+          "option": "False"
+        }
+      ],
+      "inputConstraints": {
+        "allowedImageCountRange": {
+          "start": 0,
+          "length": 5,
+          "end": 5
+        },
+        "allowedAudioCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedCharacterCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "supportsTextInput": true,
+        "requiresTextInput": false
+      }
+    },
+    {
+      "modelType": 1,
+      "displayName": "Qwen-Image",
       "name": "qwen-image",
       "visibleParameters": [
         {
@@ -82,6 +136,123 @@
       "inputConstraints": {
         "allowedImageCountRange": {
           "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedAudioCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedCharacterCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "supportsTextInput": true,
+        "requiresTextInput": false
+      },
+      "hiddenParameters": null
+    },
+    {
+      "modelType": 1,
+      "displayName": "FLUX-2-Pro",
+      "name": "flux-2-pro",
+      "visibleParameters": [
+        {
+          "identifier": {
+            "englishIdentifier": "Aspect Ratio",
+            "traditionalChineseIdentifier": "比例",
+            "simplifiedChineseIdentifier": "比例"
+          },
+          "name": "aspect",
+          "inputMethod": 0,
+          "characterValidation": 0,
+          "options": [
+            "16:9",
+            "4:3",
+            "1:1",
+            "3:4",
+            "9:16",
+            "720*1280",
+            "1536*1024",
+            "1024*1536"
+          ]
+        }
+      ],
+      "inputConstraints": {
+        "allowedImageCountRange": {
+          "start": 0,
+          "length": 5,
+          "end": 5
+        },
+        "allowedAudioCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedCharacterCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "supportsTextInput": true,
+        "requiresTextInput": false
+      },
+      "hiddenParameters": null
+    },
+    {
+      "modelType": 1,
+      "displayName": "remove-background",
+      "name": "remove-background",
+      "inputConstraints": {
+        "allowedImageCountRange": {
+          "start": 1,
+          "length": 0,
+          "end": 1
+        },
+        "allowedAudioCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedCharacterCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "supportsTextInput": true,
+        "requiresTextInput": false
+      },
+      "visibleParameters": null,
+      "hiddenParameters": null
+    },
+    {
+      "modelType": 1,
+      "displayName": "StableDiffusion3.5-L",
+      "name": "stablediffusion3.5-l",
+      "visibleParameters": [
+        {
+          "identifier": {
+            "englishIdentifier": "Aspect Ratio",
+            "traditionalChineseIdentifier": "比例",
+            "simplifiedChineseIdentifier": "比例"
+          },
+          "name": "aspect",
+          "inputMethod": 0,
+          "characterValidation": 0,
+          "options": [
+            "16:9",
+            "4:3",
+            "1:1",
+            "3:4",
+            "9:16"
+          ]
+        }
+      ],
+      "inputConstraints": {
+        "allowedImageCountRange": {
+          "start": 0,
           "length": 5,
           "end": 5
         },
@@ -102,6 +273,48 @@
     },
     {
       "modelType": 2,
+      "displayName": "Lyria-3",
+      "name": "lyria-3",
+      "visibleParameters": [
+        {
+          "identifier": {
+            "englishIdentifier": "Full Song",
+            "traditionalChineseIdentifier": "完整歌曲",
+            "simplifiedChineseIdentifier": "完整歌曲"
+          },
+          "name": "full_song",
+          "inputMethod": 0,
+          "characterValidation": 0,
+          "options": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "inputConstraints": {
+        "allowedImageCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedAudioCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "allowedCharacterCountRange": {
+          "start": 0,
+          "length": 0,
+          "end": 0
+        },
+        "supportsTextInput": true,
+        "requiresTextInput": true
+      },
+      "hiddenParameters": null
+    },
+    {
+      "modelType": 2,
+      "displayName": "Hailuo-Music-v1.5",
       "name": "hailuo-music-v1.5",
       "visibleParameters": [
         {
@@ -139,6 +352,7 @@
     },
     {
       "modelType": 2,
+      "displayName": "Hailuo-Speech-02",
       "name": "hailuo-speech-02",
       "visibleParameters": [
         {
@@ -246,6 +460,7 @@
     },
     {
       "modelType": 3,
+      "displayName": "GPT-5.4-Nano",
       "name": "GPT-5.4-nano",
       "inputConstraints": {
         "allowedImageCountRange": {
