@@ -392,8 +392,8 @@
 		},
 		{
 			"modelType": 2,
-			"displayName": "Hailuo-Speech-02",
-			"name": "hailuo-speech-02",
+			"displayName": "MiniMax-Speech-2.8",
+			"name": "miniMax-speech-2.8",
 			"visibleParameters": [
 				{
 					"identifier": {
