@@ -31,12 +31,6 @@
       ]
     },
     {
-      "aiTask": 4,
-      "availableModels": [
-        "hailuo-music-v1.5"
-      ]
-    },
-    {
       "aiTask": 5,
       "availableModels": [
         "hailuo-music-v1.5",
