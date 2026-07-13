@@ -400,14 +400,23 @@
           "inputMethod": 0,
           "characterValidation": 0,
           "options": [
-            "Lyrical",
-            "Flight Attendant",
-            "Graceful Lady",
-            "Insightful Speaker",
-            "Radiant Girl",
-            "Persuasive Man",
-            "Lucky Robot",
-            "Whisper Belle"
+            "Wise_Woman",
+            "Friendly_Person",
+            "Inspirational_girl",
+            "Deep_Voice_Man",
+            "Calm_Woman",
+            "Casual_Guy",
+            "Lively_Girl",
+            "Patient_Man",
+            "Young_Knight",
+            "Determined_Man",
+            "Lovely_Girl",
+            "Decent_Boy",
+            "Imposing_Manner",
+            "Elegant_Man",
+            "Abbess",
+            "Sweet_Girl_2",
+            "Exuberant_Girl"
           ]
         }
       ],
