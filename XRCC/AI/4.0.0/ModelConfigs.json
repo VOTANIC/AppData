@@ -49,6 +49,11 @@
 					"length": 0,
 					"end": 0
 				},
+				"allowedDocumentCountRange": {
+					"start": 0,
+					"length": 0,
+					"end": 0
+				},
 				"supportsTextInput": true,
 				"requiresTextInput": false
 			}
@@ -98,6 +103,11 @@
 					"end": 0
 				},
 				"allowedCharacterCountRange": {
+					"start": 0,
+					"length": 0,
+					"end": 0
+				},
+				"allowedDocumentCountRange": {
 					"start": 0,
 					"length": 0,
 					"end": 0
@@ -152,6 +162,11 @@
 					"length": 0,
 					"end": 0
 				},
+				"allowedDocumentCountRange": {
+					"start": 0,
+					"length": 0,
+					"end": 0
+				},
 				"supportsTextInput": true,
 				"requiresTextInput": false
 			},
@@ -200,6 +215,11 @@
 					"length": 0,
 					"end": 0
 				},
+				"allowedDocumentCountRange": {
+					"start": 0,
+					"length": 0,
+					"end": 0
+				},
 				"supportsTextInput": true,
 				"requiresTextInput": false
 			},
@@ -221,6 +241,11 @@
 					"end": 0
 				},
 				"allowedCharacterCountRange": {
+					"start": 0,
+					"length": 0,
+					"end": 0
+				},
+				"allowedDocumentCountRange": {
 					"start": 0,
 					"length": 0,
 					"end": 0
@@ -267,6 +292,11 @@
 					"end": 0
 				},
 				"allowedCharacterCountRange": {
+					"start": 0,
+					"length": 0,
+					"end": 0
+				},
+				"allowedDocumentCountRange": {
 					"start": 0,
 					"length": 0,
 					"end": 0
@@ -322,6 +352,11 @@
 					"length": 0,
 					"end": 0
 				},
+				"allowedDocumentCountRange": {
+					"start": 0,
+					"length": 0,
+					"end": 0
+				},
 				"supportsTextInput": true,
 				"requiresTextInput": true
 			},
@@ -360,6 +395,11 @@
 					"end": 0
 				},
 				"allowedCharacterCountRange": {
+					"start": 0,
+					"length": 0,
+					"end": 0
+				},
+				"allowedDocumentCountRange": {
 					"start": 0,
 					"length": 0,
 					"end": 0
@@ -403,6 +443,11 @@
 					"length": 0,
 					"end": 0
 				},
+				"allowedDocumentCountRange": {
+					"start": 0,
+					"length": 0,
+					"end": 0
+				},
 				"supportsTextInput": true,
 				"requiresTextInput": true
 			},
@@ -410,45 +455,28 @@
 		},
 		{
 			"modelType": 2,
-			"displayName": "MiniMax-Speech-2.8",
-			"name": "minimax-speech-2.8",
+			"displayName": "Gemini-3.1-Flash-TTS",
+			"name": "Gemini-3.1-Flash-TTS",
 			"visibleParameters": [
-				{
-					"identifier": {
-						"englishIdentifier": "Emotion",
-						"traditionalChineseIdentifier": "情緒",
-						"simplifiedChineseIdentifier": "情绪"
-					},
-					"name": "emotion",
-					"inputMethod": 0,
-					"characterValidation": 0,
-					"options": [
-						"None",
-						"Happy",
-						"Sad",
-						"Angry",
-						"Fearful",
-						"Disgusted",
-						"Surprised",
-						"Neutral"
-					],
-					"remappedOptions": null
-				},
 				{
 					"identifier": {
 						"englishIdentifier": "Language",
 						"traditionalChineseIdentifier": "語言",
 						"simplifiedChineseIdentifier": "语言"
 					},
-					"name": "language_boost",
+					"name": "language",
 					"inputMethod": 0,
 					"characterValidation": 0,
 					"options": [
 						"English",
-						"Chinese,Yue",
-						"Chinese"
+						"Chinese",
+						"Cantonese"
 					],
-					"remappedOptions": null
+					"remappedOptions": [
+						"en-US",
+						"cmn-CN",
+						"cmn-CN"
+					]
 				},
 				{
 					"identifier": {
@@ -456,47 +484,48 @@
 						"traditionalChineseIdentifier": "語音",
 						"simplifiedChineseIdentifier": "语音"
 					},
-					"name": "voice_id",
+					"name": "voice",
 					"inputMethod": 0,
 					"characterValidation": 0,
 					"options": [
-						"Lyrical",
-						"Flight Attendant",
-						"Graceful Lady",
-						"Insightful Speaker",
-						"Radiant Girl",
-						"Persuasive Man",
-						"Lucky Robot",
-						"Whisper Belle"
+						"Zephyr",
+						"Puck",
+						"Charon",
+						"Kore",
+						"Fenrir",
+						"Leda",
+						"Orus",
+						"Aoede",
+						"Callirrhoe",
+						"Autonoe",
+						"Enceladus",
+						"Iapetus",
+						"Umbriel",
+						"Algieba",
+						"Despina",
+						"Erinome",
+						"Algenib",
+						"Rasalgethi",
+						"Laomedeia",
+						"Achernar",
+						"Alnilam",
+						"Schedar",
+						"Gacrux",
+						"Pulcherrima",
+						"Achird",
+						"Zubenelgenubi",
+						"Vindemiatrix",
+						"Sadachbia",
+						"Sadaltager",
+						"Sulafat"
 					],
-					"remappedOptions": [
-						"Chinese (Mandarin)_Lyrical_Voice",
-						"Chinese (Mandarin)_HK_Flight_Attendant",
-						"English_Graceful_Lady",
-						"English_Insightful_Speaker",
-						"English_radiant_girl",
-						"English_Persuasive_Man",
-						"English_Lucky_Robot",
-						"Japanese_Whisper_Belle"
-					]
+					"remappedOptions": null
 				}
 			],
 			"hiddenParameters": [
 				{
-					"name": "hd",
-					"option": "False"
-				},
-				{
-					"name": "speed",
-					"option": "1"
-				},
-				{
-					"name": "volume",
-					"option": "1"
-				},
-				{
-					"name": "pitch",
-					"option": "0"
+					"name": "volume_gain",
+					"option": "16"
 				}
 			],
 			"inputConstraints": {
@@ -511,6 +540,11 @@
 					"end": 0
 				},
 				"allowedCharacterCountRange": {
+					"start": 0,
+					"length": 0,
+					"end": 0
+				},
+				"allowedDocumentCountRange": {
 					"start": 0,
 					"length": 0,
 					"end": 0
@@ -538,6 +572,11 @@
 					"start": 1,
 					"length": 0,
 					"end": 1
+				},
+				"allowedDocumentCountRange": {
+					"start": 0,
+					"length": 0,
+					"end": 0
 				},
 				"supportsTextInput": true,
 				"requiresTextInput": true
